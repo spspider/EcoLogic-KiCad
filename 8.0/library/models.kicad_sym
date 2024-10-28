@@ -408,7 +408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IRLR3103:DPAK229P990X239-4N"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 20.32 -2.286 0)
 			(effects
 				(font

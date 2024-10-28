@@ -1,4 +1,4 @@
-23851575318897470
+23855038245039629
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96761,6 +96761,13 @@ PJ-320A
 4
 4
 module-custom-for-esp8266
+RF_Receiver_433_MHz
+433 MHz RF Receiver
+rf receiver 433 mhz
+0
+4
+4
+module-custom-for-esp8266
 ZC32F-012-HS3
 
 
@@ -96782,6 +96789,13 @@ connector-10
 10
 10
 module-custom-for-esp8266
+connector-12-green-mini
+
+
+0
+12
+12
+module-custom-for-esp8266
 dc-in-plastic-standard
 
 
@@ -96793,5 +96807,5 @@ mini360
 
 
 0
-0
-0
+4
+4

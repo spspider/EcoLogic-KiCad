@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--**************************************-->
+<!--   File    : IoTmanager.fsproj        -->
+<!--   Format  : TopoR Project file       -->
+<!--   Version : 2                        -->
+<!--   Program : TopoR Lite 7.0.18699     -->
+<!--   Date    : Sunday, October 27, 2024 -->
+<!--   Time    : 21:43                    -->
+<!--**************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{81FF7662-5BED-408D-BA02-EB66FC457EFF}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\IoTmanager.fsx" isopened="0" dateChange="2024-10-23 22:18:14"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="true">
+         <File path=".\autoroute_241023203736\IoTmanager_1909-31s.fsb" isopened="0" dateChange="2024-10-23 20:40:22"/>
+         <File path=".\autoroute_241023221847\IoTmanager_1927-68s.fsb" isopened="0" dateChange="2024-10-23 22:21:19"/>
+         <File path=".\autoroute_241027191101\IoTmanager_2360-13s.fsb" isopened="0" dateChange="2024-10-27 19:13:05"/>
+         <File path=".\autoroute_241027190313\IoTmanager_2370-15sa.fsb" isopened="0" dateChange="2024-10-27 19:10:14"/>
+      </Section>
+   </Documents>
+   <Import>
+      <Specctra>
+         <Path name="C:\Users\spspi\OneDrive\Документы\KiCad\IoTmanager\IoTmanager.dsn"/>
+      </Specctra>
+   </Import>
+</Project>

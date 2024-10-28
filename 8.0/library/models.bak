@@ -207,7 +207,7 @@
 			(pin input line
 				(at 3.81 -11.43 180)
 				(length 2.54)
-				(name "mosf3"
+				(name "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -225,7 +225,7 @@
 			(pin input line
 				(at 3.81 8.89 180)
 				(length 2.54)
-				(name "GND"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -243,7 +243,7 @@
 			(pin input line
 				(at 3.81 6.35 180)
 				(length 2.54)
-				(name "+5"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -261,7 +261,7 @@
 			(pin input line
 				(at 3.81 3.81 180)
 				(length 2.54)
-				(name "a0-in-res"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -279,7 +279,7 @@
 			(pin input line
 				(at 3.81 1.27 180)
 				(length 2.54)
-				(name "d2"
+				(name "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -297,7 +297,7 @@
 			(pin input line
 				(at 3.81 -1.27 180)
 				(length 2.54)
-				(name "rx"
+				(name "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -315,7 +315,7 @@
 			(pin input line
 				(at 3.81 -3.81 180)
 				(length 2.54)
-				(name "d8"
+				(name "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -333,7 +333,7 @@
 			(pin input line
 				(at 3.81 -6.35 180)
 				(length 2.54)
-				(name "mosf1"
+				(name "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -351,7 +351,7 @@
 			(pin input line
 				(at 3.81 -8.89 180)
 				(length 2.54)
-				(name "mosf2"
+				(name "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -371,7 +371,7 @@
 			(pin input line
 				(at 3.81 11.43 180)
 				(length 2.54)
-				(name "+12"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -408,7 +408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IRLR3103:DPAK229P990X239-4N"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 20.32 -2.286 0)
 			(effects
 				(font
