@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -427,9 +427,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "module-custom-for-esp8266"
+    ],
     "pinned_symbol_libs": [
-      "models"
+      "models",
+      "ESP8266_import2"
     ]
   },
   "meta": {
@@ -467,11 +470,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
-      "plot": "",
-      "pos_files": "",
-      "specctra_dsn": "",
-      "step": "",
+      "netlist": "../../../../../../Program Files/KiCad/8.0/",
+      "plot": "gerber/",
+      "pos_files": "BOM-CPL/",
+      "specctra_dsn": "topor/IoTmanager.dsn",
+      "step": "IoTmanager.step",
       "svg": "",
       "vrml": ""
     },
@@ -479,7 +482,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "BOM-CPL\\BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -501,7 +504,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -525,7 +528,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -534,20 +537,32 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Описание",
           "name": "Description",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -591,7 +606,7 @@
   "sheets": [
     [
       "e30adb8f-2050-4707-a23b-b56498f87e6f",
-      "Корневой лист"
+      "Root"
     ]
   ],
   "text_variables": {}
