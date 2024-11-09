@@ -1,4 +1,4 @@
-(footprint "ZC32F-012-HS3"
+(footprint "HF32F-005-ZS3"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ZC32F-012-HS3"
+	(property "Value" "HF32F-005-ZS3"
 		(at -14.9 -0.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
