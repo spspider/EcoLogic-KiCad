@@ -130,4 +130,15 @@
 		(remove_unused_layers no)
 		(uuid "cf61d81a-5252-4d76-9d3e-2630594651eb")
 	)
+	(model "C:/MyDocuments/Programming/Projects_KiCad/Library_from_internet/HF32F_005-ZS/3D/HF32F_005-ZS.stp"
+		(offset
+			(xyz 9 -5 16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

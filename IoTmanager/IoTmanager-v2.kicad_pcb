@@ -127,9 +127,9 @@
 	(net 45 "unconnected-(U5-Ring1-Pad3)")
 	(net 46 "unconnected-(U5-Ring2-Pad4)")
 	(net 47 "Net-(D1-A)")
-	(net 48 "Net-(Q11-npn1-C)")
-	(net 49 "Net-(Q6-C)")
-	(net 50 "Net-(Q9-C)")
+	(net 48 "Net-(D2-A)")
+	(net 49 "Net-(D3-A)")
+	(net 50 "Net-(D4-A)")
 	(net 51 "Net-(R3-Pad1)")
 	(net 52 "Net-(Q1-pnp1-B)")
 	(net 53 "Net-(Q1-pnp1-C)")
@@ -137,7 +137,7 @@
 	(net 55 "Net-(Q5-C)")
 	(net 56 "Net-(Q6-B)")
 	(net 57 "Net-(Q7-npn1-B)")
-	(net 58 "Net-(Q7-npn1-C)")
+	(net 58 "Net-(D5-A)")
 	(net 59 "Net-(Q8-pnp1-C)")
 	(net 60 "Net-(Q9-B)")
 	(net 61 "Net-(Q8-pnp1-B)")
@@ -220,7 +220,7 @@
 			)
 		)
 		(path "/8257e43f-bbdd-451c-b455-a06b616e9e1e")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -391,7 +391,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/28061dc6-c239-435f-a24d-c8d8f368a2eb")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -717,7 +717,7 @@
 		)
 		(property ki_fp_filters "TO*92*")
 		(path "/a6177157-86de-4b28-909d-cb5890db4708")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -963,7 +963,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0415b47b-3473-4c20-b5c3-4e8959654669")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1264,7 +1264,7 @@
 			)
 		)
 		(path "/e1b56f9d-89ec-46a7-966e-d262ff400232")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1416,7 +1416,7 @@
 		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/29eb8d8a-9031-4cc4-bd76-a177f8d3f0e6")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1708,7 +1708,7 @@
 		)
 		(property ki_fp_filters "LED*5.0mm*IRGrey*")
 		(path "/6be5fcaa-8268-429a-8db8-c1a7c512e699")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1890,7 +1890,7 @@
 			)
 		)
 		(property "Value" "TSOP23xx"
-			(at 2.5 5 90)
+			(at 2.6416 3.2454 90)
 			(layer "F.Fab")
 			(uuid "c4906c06-09ea-4eb9-aeac-b1762cb0cc0c")
 			(effects
@@ -1954,7 +1954,7 @@
 		)
 		(property ki_fp_filters "Vishay*MOLD*")
 		(path "/5693ece9-9e00-4033-87b8-9630f03f40f1")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(path "/72835add-0ff2-48db-8c2f-77e6c382afd0")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -2279,7 +2279,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(Q6-C)")
+			(net 48 "Net-(D2-A)")
 			(pintype "passive")
 			(uuid "5e47413d-ca3f-4900-9bc6-751e047725b6")
 		)
@@ -2406,7 +2406,7 @@
 		)
 		(property ki_fp_filters "ESP?12*")
 		(path "/d09bf154-522e-48da-8da8-0d7fded8ecaa")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2956,7 +2956,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c9330ef2-b8e8-4dc5-bddd-72358b3f9262")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -3185,7 +3185,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/263aa880-db37-4c70-a268-035a6c870dde")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3486,7 +3486,7 @@
 			)
 		)
 		(path "/eaadbe23-dc2e-4e59-9708-87b195a820d8")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -3518,7 +3518,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(Q9-C)")
+			(net 50 "Net-(D4-A)")
 			(pintype "passive")
 			(uuid "f7ca7f1b-4313-489d-a817-43f65b2319da")
 		)
@@ -3645,7 +3645,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/4cf41681-041a-48c4-8139-1d6e77503244")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5753,7 +5753,7 @@
 			)
 		)
 		(path "/4f819308-acc2-4d7f-ac55-46fe70fc9d67")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5987,7 +5987,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d1d6f822-c098-47ed-adb2-99270422324a")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6266,7 +6266,7 @@
 			)
 		)
 		(path "/1b9184da-ec86-4106-8af1-33b5ae83dd14")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -6298,7 +6298,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "Net-(Q7-npn1-C)")
+			(net 49 "Net-(D3-A)")
 			(pintype "passive")
 			(uuid "05cb5a40-5b2c-4853-aeb8-0039e824ddee")
 		)
@@ -6424,7 +6424,7 @@
 			)
 		)
 		(path "/119aa292-5bfd-479f-b590-3ec7dbbecca8")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -6456,7 +6456,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(Q11-npn1-C)")
+			(net 58 "Net-(D5-A)")
 			(pintype "passive")
 			(uuid "f0605dbb-cdfd-44f0-9a61-3192122f36de")
 		)
@@ -6583,7 +6583,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c7e3c592-a349-46d3-a9e0-c5881984bcf4")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6737,7 +6737,7 @@
 			(uuid "517e029b-a150-4865-85b2-bfdc621efc58")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "22d9334f-08e4-47e9-93fb-1e72d3758ef2")
 			(effects
@@ -6865,7 +6865,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/08d4cacf-3646-4cdd-a593-16caaaf19e56")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -7093,7 +7093,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0dc80290-57cd-4088-b321-4579cb460f5a")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7405,7 +7405,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/fe9d9667-a0ae-495c-a2c5-8967ef660f18")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7638,7 +7638,7 @@
 			)
 		)
 		(path "/6fe038b2-d51b-4ecf-aca0-fcc78a1a1df3")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7967,6 +7967,146 @@
 			)
 		)
 	)
+	(footprint "module-custom-for-esp8266:sod80-1n1448"
+		(layer "B.Cu")
+		(uuid "2d219a73-9847-40ec-ad07-bf3a787be65a")
+		(at 81.9404 97.5868)
+		(property "Reference" "D2"
+			(at 0.038 0.5 180)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "81e8a904-df20-4f90-91e1-bba89ec40e0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0.038 -1 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "3323d7d6-52d6-45a4-abda-7979a17c9e93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "module-custom-for-esp8266:sod80-1n1448"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e5a0a96d-9df7-40e7-8fb3-db60a3977c08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d5a9fb28-125c-4318-9196-8fe9524808cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fee52432-aa0f-4330-9e46-2820a1c183c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f3808245-7d3a-49b0-9f24-74b493e970c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a112dc66-32f4-4772-a26b-51f23fbafa70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/577e4cbe-fcd6-496a-a722-daaaf6cdd505")
+		(sheetname "Корневой лист")
+		(sheetfile "IoTmanager-v2.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0.038 -2.5 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "8a59070c-0668-4b3d-9f9f-ec528899c00a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.762 0 270)
+			(size 2.286 1.524)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 17 "+5C")
+			(pinfunction "K")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "d63ae23a-128c-4010-9403-1b739d4f64d7")
+		)
+		(pad "2" smd roundrect
+			(at 3.3 0 270)
+			(size 2.286 1.524)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 48 "Net-(D2-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "01786a1f-b5a3-4240-ad6b-b4acc78dda3b")
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "2f830b76-89b3-4702-8ccd-c38d3b1fe48d")
@@ -8069,7 +8209,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04796baf-1c8c-4dd1-8285-841133f07ecd")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8301,7 +8441,7 @@
 			)
 		)
 		(path "/ed6fb901-2c1b-4cdb-85c6-f2f9fea51a88")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8732,7 +8872,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6b49e60b-ffbe-4713-baa7-3e403eb8d804")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8979,7 +9119,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0f6837f6-c4fd-453a-80c3-c959a81bf59a")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9226,7 +9366,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5dddb45a-ebad-4202-b155-e5a4197cd2b9")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9527,7 +9667,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/439d2061-1030-4e9d-b0bc-36e4bf9ac916")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9774,7 +9914,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/87cc22e6-a19c-41c3-9ced-db681418d632")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10006,7 +10146,7 @@
 			)
 		)
 		(path "/3d3bef08-b4e7-471f-a4d8-3c8764f0e177")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10335,6 +10475,146 @@
 			)
 		)
 	)
+	(footprint "module-custom-for-esp8266:sod80-1n1448"
+		(layer "B.Cu")
+		(uuid "53575c54-3746-4fd1-a50f-01677eaefebf")
+		(at 113.03 97.6884)
+		(property "Reference" "D5"
+			(at 0.038 0.5 180)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "e9e1de1b-6e2e-49b7-9222-92809faa5051")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0.038 -1 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "7decab15-b59e-4f76-b555-96b18f153ab9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "module-custom-for-esp8266:sod80-1n1448"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "76f53013-594c-45dc-84ca-b7bee0049f56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2bc37311-3263-47fb-96a9-30348dd56e72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "23795595-c2a0-4d30-b45e-5c8a4bf1e240")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dcf72382-01b9-4d3e-8fa3-c5e72aa05630")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cd35ebba-544f-45f1-b031-c48ef1766516")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/1c486c66-2789-4e70-8f4a-7d65e53505dd")
+		(sheetname "Корневой лист")
+		(sheetfile "IoTmanager-v2.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0.038 -2.5 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "0745d773-7fa7-44aa-ac23-7c14d163f180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.762 0 270)
+			(size 2.286 1.524)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 17 "+5C")
+			(pinfunction "K")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "37f8e3e2-4eea-4a63-bd17-42a54da8013f")
+		)
+		(pad "2" smd roundrect
+			(at 3.3 0 270)
+			(size 2.286 1.524)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 58 "Net-(D5-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "fd4d73ec-59ec-4e1a-8b90-31acea2c6219")
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "B.Cu")
 		(uuid "61417070-455b-42ff-a23a-8291929b4014")
@@ -10437,7 +10717,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/055411e3-e59d-4939-9221-b7866a692c00")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10619,7 +10899,7 @@
 			(size 1.475 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 50 "Net-(Q9-C)")
+			(net 50 "Net-(D4-A)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "0a26a0c4-d40e-43cd-a636-435cc06357e0")
@@ -10738,7 +11018,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ea34bbd8-d705-4192-8b30-92cddeb7a93e")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10920,7 +11200,7 @@
 			(size 1.475 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 58 "Net-(Q7-npn1-C)")
+			(net 49 "Net-(D3-A)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "b94e77c7-b166-466e-b240-d1f206144556")
@@ -11039,7 +11319,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/77dc247d-4e64-4af8-83b7-f581380e1f30")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11286,7 +11566,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/76c8123f-18df-43ba-93f1-39b477650ff2")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11533,7 +11813,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5b4b2490-bcbb-4a31-b0a7-93f5ce5741b3")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11780,7 +12060,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/a874fc62-027a-426d-8a2d-cad35fee7478")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12081,7 +12361,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8c83ccf4-66fa-4186-831d-eb969077c747")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12328,7 +12608,7 @@
 		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/f79b573d-5970-4fc6-9c13-ec694a48268b")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12639,7 +12919,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/46dcb2be-ba92-421d-89e4-6ca8608b7112")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12886,7 +13166,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/644e2c84-4498-4a13-92ce-fd3a9f21ed81")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13133,7 +13413,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/83639173-f4f6-4302-a2f2-54ccdae05773")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13367,7 +13647,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e8944275-19ac-42f6-94de-f65ea211a872")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13614,7 +13894,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/a9542401-5fac-4bfe-b476-e2063aa2b201")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13796,7 +14076,7 @@
 			(size 1.475 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 49 "Net-(Q6-C)")
+			(net 48 "Net-(D2-A)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "f6310dcd-d491-4308-be53-778dcc7ceb5f")
@@ -13915,7 +14195,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/d085e76a-7c48-4d21-983b-a6f369d9e9be")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14079,7 +14359,7 @@
 			)
 		)
 		(property "Value" "MMBT5401"
-			(at 0 -2.4 0)
+			(at -1.8796 -0.5729 0)
 			(layer "B.Fab")
 			(uuid "28a96256-0aea-4cd9-8689-74a4b64e1b58")
 			(effects
@@ -14162,7 +14442,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/fb9ec26f-8037-462c-b553-7087b2aa29bb")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14361,6 +14641,286 @@
 			)
 		)
 	)
+	(footprint "module-custom-for-esp8266:sod80-1n1448"
+		(layer "B.Cu")
+		(uuid "affde42e-debd-401c-b6ce-ee6f978775fb")
+		(at 102.616 97.6376)
+		(property "Reference" "D4"
+			(at 0.038 0.5 180)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b97f0903-6eb0-4b30-8465-aa4fbb8e69e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0.038 -1 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "564a24e4-0d70-4d41-82bb-5558f7ed8cf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "module-custom-for-esp8266:sod80-1n1448"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8607ef7a-2b33-44fe-89fa-15020230337e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c7b34c2-5565-4de4-93fb-49492de8b3d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "243ebd12-9bde-44b4-a195-38b95fcfd4e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2b08e6ca-ee67-4d0b-887e-64e16d0f9887")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d6a80c49-70e4-4d69-a2b4-ca6d3899b42b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/23331c35-dc0d-4a8e-ab01-19672d992cef")
+		(sheetname "Корневой лист")
+		(sheetfile "IoTmanager-v2.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0.038 -2.5 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "607bf0eb-2153-49b0-991a-1ee49179234d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.762 0 270)
+			(size 2.286 1.524)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 17 "+5C")
+			(pinfunction "K")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "03220239-0c47-48ac-8712-57bc2fbbb5bf")
+		)
+		(pad "2" smd roundrect
+			(at 3.3 0 270)
+			(size 2.286 1.524)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 50 "Net-(D4-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "5f6ee6a5-2bf6-483c-8c57-ce57ba337c66")
+		)
+	)
+	(footprint "module-custom-for-esp8266:sod80-1n1448"
+		(layer "B.Cu")
+		(uuid "c4dc8d79-3a5f-41d8-a524-5a789c94df20")
+		(at 92.5068 97.6884)
+		(property "Reference" "D3"
+			(at 0.038 0.5 180)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "5ef5b35a-b46d-4e36-ae03-4d177f9248eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 0.038 -1 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "aa3c249b-860f-4474-8d07-0feac9201eed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "module-custom-for-esp8266:sod80-1n1448"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "20204216-1929-4bf0-bdc8-2f2373479180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "de2e6823-071b-48be-9393-9b8955cdcd8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 0.038 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0bdb6912-cc99-4c9c-b329-c6e80c764f6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5b5bd924-13c5-4c7e-9357-6b5b5bd19bb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "54c33339-d64e-432a-a678-8cce6c8ab898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/dc614ae4-266e-41ba-83e2-c88d387ff32a")
+		(sheetname "Корневой лист")
+		(sheetfile "IoTmanager-v2.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0.038 -2.5 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "e9def6ba-4129-4b87-85a7-3d3169585937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.762 0 270)
+			(size 2.286 1.524)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 17 "+5C")
+			(pinfunction "K")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "d80f634f-bfc4-4f54-aa6c-acb8db45aca4")
+		)
+		(pad "2" smd roundrect
+			(at 3.3 0 270)
+			(size 2.286 1.524)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 49 "Net-(D3-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "2c7d3e5f-2b49-4ff7-b5cd-874fdb9dfa7f")
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "c74486f9-1f58-43c9-be62-36038fa320c1")
@@ -14463,7 +15023,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/eb388150-6020-4a7a-a204-16131cb3fa05")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14710,7 +15270,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/75be8bd4-70ea-4891-a6c6-49fd938e8cdb")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14957,7 +15517,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/622a8806-7622-49a7-b44f-17a787485c2d")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15191,7 +15751,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e36f5472-a56b-4e8b-a84c-056c71f1776d")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15438,7 +15998,7 @@
 		)
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/eff7f473-c365-47ab-93f3-72cd231595d7")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15749,7 +16309,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/dbfa9b9e-8a3b-46fa-aeb6-d5795a3ba63e")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15996,7 +16556,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/f91419ac-d706-42d9-bfb8-17d4bed104e2")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16284,7 +16844,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/314750fd-41f1-4c14-b79b-b4ab417f0668")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16436,7 +16996,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q11-npn1"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "B.SilkS")
 			(uuid "78c430d8-23ca-4061-b3f2-3a9423c17a2d")
 			(effects
@@ -16448,7 +17008,7 @@
 			)
 		)
 		(property "Value" "MMBT5551-npn"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "0df8d0d7-fe38-4e29-abb0-a0757cc3039a")
 			(effects
@@ -16531,7 +17091,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/889c9e4a-df30-465f-8e4e-a589d9e6999c")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16677,7 +17237,7 @@
 			(uuid "bea25389-6c01-4548-bb51-94a83545ea44")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d2d3f080-826e-4a0a-ad5e-335e4346c59e")
 			(effects
@@ -16713,7 +17273,7 @@
 			(size 1.475 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 48 "Net-(Q11-npn1-C)")
+			(net 58 "Net-(D5-A)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "b4fff071-f551-4fcd-9f13-8377a6d27baa")
@@ -16832,7 +17392,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/db65c2f2-099f-40f5-a6d7-d735a41babcf")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17079,7 +17639,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/30170528-2cec-4eb2-babb-237dbc10f4c3")
-		(sheetname "Root")
+		(sheetname "Корневой лист")
 		(sheetfile "IoTmanager-v2.kicad_sch")
 		(attr smd)
 		(fp_line

@@ -2577,7 +2577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "module-custom-for-esp8266:ZC32F-012-HS3"
+		(property "Footprint" "module-custom-for-esp8266:HF32F-005-ZS3"
 			(at 11.43 -1.27 0)
 			(effects
 				(font
