@@ -7060,6 +7060,12 @@
 		(uuid "e999bc14-8102-4044-9066-73578570d2f7")
 	)
 	(junction
+		(at 45.72 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ca140d-42da-4f91-bc2d-960037082ce5")
+	)
+	(junction
 		(at 270.51 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7553,6 +7559,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 34.29) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49abdaa0-14eb-4142-b110-53955aa94f01")
+	)
+	(wire
+		(pts
 			(xy 172.72 257.81) (xy 173.99 257.81)
 		)
 		(stroke
@@ -7750,6 +7766,16 @@
 			(type default)
 		)
 		(uuid "5e02f9db-1c66-4be7-b7a9-4f3256ecb279")
+	)
+	(wire
+		(pts
+			(xy 57.15 26.67) (xy 57.15 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6015fd7f-01f7-4522-bb0f-77782ee4a404")
 	)
 	(wire
 		(pts
@@ -8423,6 +8449,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 22.86) (xy 45.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f7f8ce-795e-4137-8ef5-7116a844097d")
+	)
+	(wire
+		(pts
 			(xy 181.61 257.81) (xy 185.42 257.81)
 		)
 		(stroke
@@ -8620,6 +8656,16 @@
 			(type default)
 		)
 		(uuid "c5c8a659-1682-4db1-8c79-3e3f0aad6985")
+	)
+	(wire
+		(pts
+			(xy 45.72 21.59) (xy 45.72 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6acc2b7-1773-4b53-9152-72912a1b1cf9")
 	)
 	(wire
 		(pts
@@ -8993,6 +9039,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 22.86) (xy 57.15 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e55d44-f5d4-4403-916f-fc010d31dea1")
+	)
+	(wire
+		(pts
 			(xy 275.59 256.54) (xy 275.59 259.08)
 		)
 		(stroke
@@ -9050,6 +9106,16 @@
 			(type default)
 		)
 		(uuid "fe03e250-11e6-4583-b9a5-74a7c5b50cf1")
+	)
+	(wire
+		(pts
+			(xy 57.15 36.83) (xy 53.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffca6d27-145a-4a24-a0c0-4d1402367740")
 	)
 	(label "d2"
 		(at 140.97 167.64 0)
@@ -9315,7 +9381,7 @@
 		)
 		(uuid "389bd11e-72bd-4c71-8610-ab5167177707")
 	)
-	(label "d7"
+	(label "d3"
 		(at 53.34 36.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12924,7 +12990,7 @@
 	)
 	(symbol
 		(lib_id "power:+5C")
-		(at 45.72 29.21 0)
+		(at 45.72 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12933,7 +12999,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ad2c4a2-855c-4958-8e23-fe70ea8b53d9")
 		(property "Reference" "#PWR038"
-			(at 45.72 33.02 0)
+			(at 45.72 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12942,7 +13008,7 @@
 			)
 		)
 		(property "Value" "+5C"
-			(at 45.72 24.13 0)
+			(at 45.72 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12950,7 +13016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 29.21 0)
+			(at 45.72 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12959,7 +13025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 29.21 0)
+			(at 45.72 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12968,7 +13034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5C\""
-			(at 45.72 29.21 0)
+			(at 45.72 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16453,6 +16519,85 @@
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "models:R-1k")
+		(at 57.15 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e0fd83-d230-4452-98af-6019b12b2e71")
+		(property "Reference" "R7"
+			(at 59.69 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-4k7"
+			(at 59.69 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 58.928 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C25905"
+			(at 59.69 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "9e8f827d-3351-47e2-96ba-936ecace3fd9")
+		)
+		(pin "1"
+			(uuid "1d6200ea-c82a-4460-b943-a266cda763c3")
+		)
+		(instances
+			(project ""
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "R7")
 					(unit 1)
 				)
 			)

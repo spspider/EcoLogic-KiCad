@@ -147,7 +147,7 @@
 	(footprint "module-custom-for-esp8266:Mini360_step-down"
 		(layer "F.Cu")
 		(uuid "054cfb61-612e-4ce2-9cc0-fff983573072")
-		(at 105.52 68.52 180)
+		(at 105.41 67.9704 180)
 		(property "Reference" "U4"
 			(at 0 0.5 0)
 			(layer "F.SilkS")
@@ -3566,7 +3566,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D10.0mm_P3.50mm"
 		(layer "F.Cu")
 		(uuid "645cc971-280d-4e21-9e3e-dcd684b43128")
-		(at 86.926723 75.184)
+		(at 86.8732 74.422)
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, , diameter=10mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm  diameter 10mm Electrolytic Capacitor")
 		(property "Reference" "C1"
@@ -7537,6 +7537,239 @@
 			(net 5 "/tx")
 			(pintype "passive")
 			(uuid "3932b234-9977-44c1-aae0-01ed5f6eacf7")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "2043685f-661f-4995-b362-3413a68a3ad8")
+		(at 118.0592 123.952)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R7"
+			(at 2.6924 0.1016 0)
+			(layer "B.SilkS")
+			(uuid "c3887c15-24b1-4817-84b2-72e12c6bbd1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "R-4k7"
+			(at 0 -1.65 0)
+			(layer "B.Fab")
+			(uuid "a6702fa7-1a41-41e1-9c33-37d76159fa0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7b7c5461-e616-428f-91c8-ebcf78766102")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2335dcd3-c0d6-45e3-849f-86ee4cddd746")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fa394874-be39-45fc-90b5-157e98d3b11c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part" "C25905"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f87084d4-5808-4d62-89ff-f333b32e2e62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/c5e0fd83-d230-4452-98af-6019b12b2e71")
+		(sheetname "Корневой лист")
+		(sheetfile "IoTmanager-v2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.227064 -0.735)
+			(end -0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fa6d7ca2-543b-4e88-b732-075de1c24355")
+		)
+		(fp_line
+			(start 0.227064 0.735)
+			(end -0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "b4d2f72e-1e02-49f4-b2c5-d2f136397f4b")
+		)
+		(fp_line
+			(start -1.68 -0.95)
+			(end 1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "27727838-0242-48be-93e2-0ac4f29a1be9")
+		)
+		(fp_line
+			(start -1.68 0.95)
+			(end -1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f2aa0bc6-12f6-4bae-9cdd-6680b06dc7a0")
+		)
+		(fp_line
+			(start 1.68 -0.95)
+			(end 1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b6f98d48-699e-4aa7-88e8-39d81acfb8fd")
+		)
+		(fp_line
+			(start 1.68 0.95)
+			(end -1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d9788ccb-1738-437d-a77f-35a0093cedc8")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4070e6d6-950c-4a96-bc09-60a9eceb9e76")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f37feeb7-8f26-4571-858f-c94577a20edd")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e82fb81c-2e04-4b13-965b-74b1636d29db")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "3d0d549a-1edb-45a9-9e3f-2bbb83ccfc26")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "6180fb7b-eb38-4ac0-b494-c42a849f0355")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 1.025 1.4)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.243902)
+			(net 32 "/d7")
+			(pintype "passive")
+			(uuid "4f149bee-856c-4402-9c02-986d7eba57a2")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 1.025 1.4)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.243902)
+			(net 17 "+5C")
+			(pintype "passive")
+			(uuid "5ae8bd0e-1f56-4ee8-a411-fc24907388b2")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
 			(offset
@@ -12509,11 +12742,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "B.Cu")
 		(uuid "88e4667b-5275-47af-b46b-63ed209e5338")
-		(at 113.19 76.11)
+		(at 112.9792 76.8604)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U12"
-			(at 0.0432 4.4588 0)
+			(at 0.0432 4.4588 360)
 			(layer "B.SilkS")
 			(uuid "50c8ab91-3dbf-4c02-bc1a-073f5ec4cc58")
 			(effects
@@ -12525,7 +12758,7 @@
 			)
 		)
 		(property "Value" "AMS1117-5.0"
-			(at 0.31 -4.22 0)
+			(at 0.31 -4.22 360)
 			(layer "B.Fab")
 			(uuid "b53806bd-04a7-4d27-8d98-abfc737c53b8")
 			(effects
