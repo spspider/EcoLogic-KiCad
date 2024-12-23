@@ -1807,7 +1807,7 @@
 		(uuid "3111bdd5-f73d-48e6-9421-49892cd6d146")
 		(at 79.1 84.3 90)
 		(property "Reference" "K3"
-			(at -14.9 -1.9 90)
+			(at -2.0092 -0.4108 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a7979817-203c-4368-a7c1-b4e8e4bc54d8")

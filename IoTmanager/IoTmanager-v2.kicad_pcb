@@ -852,7 +852,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "/d7")
+			(net 16 "/d2")
 			(pinfunction "DQ")
 			(pintype "bidirectional")
 			(uuid "fb96eca7-1c89-4b2a-b19e-7dd2ffc26a36")
@@ -7758,7 +7758,7 @@
 			(size 1.025 1.4)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.243902)
-			(net 32 "/d7")
+			(net 16 "/d2")
 			(pintype "passive")
 			(uuid "4f149bee-856c-4402-9c02-986d7eba57a2")
 		)
@@ -12746,7 +12746,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U12"
-			(at 0.0432 4.4588 360)
+			(at 0.0432 4.4588 0)
 			(layer "B.SilkS")
 			(uuid "50c8ab91-3dbf-4c02-bc1a-073f5ec4cc58")
 			(effects
@@ -12758,7 +12758,7 @@
 			)
 		)
 		(property "Value" "AMS1117-5.0"
-			(at 0.31 -4.22 360)
+			(at 0.31 -4.22 0)
 			(layer "B.Fab")
 			(uuid "b53806bd-04a7-4d27-8d98-abfc737c53b8")
 			(effects
