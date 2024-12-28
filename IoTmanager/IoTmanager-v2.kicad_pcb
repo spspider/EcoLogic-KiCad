@@ -5638,7 +5638,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+5C")
+			(net 22 "+3.3V")
 			(pintype "passive")
 			(uuid "8d156922-821a-40d2-9b0f-5716deee713f")
 		)
