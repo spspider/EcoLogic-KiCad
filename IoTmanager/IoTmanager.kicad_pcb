@@ -8866,7 +8866,7 @@
 			)
 		)
 		(property "Value" "R-10k"
-			(at 0 -1.65 90)
+			(at 0.7952 -1.5044 90)
 			(layer "B.Fab")
 			(uuid "a2d29170-ef4b-4002-911d-aa0eee96d75b")
 			(effects
@@ -9374,7 +9374,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 1.65 0)
+			(at 3.0645 -0.4505 0)
 			(layer "B.SilkS")
 			(uuid "d637473e-f6b1-44c9-bf69-a8c8f0a4424d")
 			(effects
@@ -9607,7 +9607,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at -0.0725 -1.88 90)
+			(at -1.1667 1.8148 90)
 			(layer "B.SilkS")
 			(uuid "05fdf4b9-d3fa-48e6-99fd-4d1b7b50637d")
 			(effects
@@ -12344,7 +12344,7 @@
 			)
 		)
 		(property "Value" "R-1k"
-			(at 0 -1.65 0)
+			(at -2.9392 -1.4699 0)
 			(layer "B.Fab")
 			(uuid "72a4b714-9607-4f22-bcf4-0f2158786d85")
 			(effects
@@ -13538,7 +13538,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 1.65 0)
+			(at -2.5287 2.3435 0)
 			(layer "B.SilkS")
 			(uuid "fee1324d-186a-40f8-94d7-8ba5588c9a50")
 			(effects
@@ -13550,7 +13550,7 @@
 			)
 		)
 		(property "Value" "R-10k"
-			(at 0 0 0)
+			(at -1.9699 1.0227 0)
 			(layer "B.Fab")
 			(uuid "18d88b46-fa03-453f-bd59-5a3c6a40bcf1")
 			(effects
@@ -16275,8 +16275,9 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 1.9125 2.1 90)
+			(at -0.0449 1.1948 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "3e6a0e74-6b33-473b-a36d-90fb8ff1a0e4")
 			(effects
 				(font
