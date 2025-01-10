@@ -7359,6 +7359,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 167.64) (xy 264.16 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cba248-6700-4e6d-bd95-699891f65ab2")
+	)
+	(wire
+		(pts
 			(xy 138.43 180.34) (xy 153.67 180.34)
 		)
 		(stroke
@@ -7666,6 +7676,16 @@
 			(type default)
 		)
 		(uuid "52645c5f-c65d-4b08-8ea7-708541290c86")
+	)
+	(wire
+		(pts
+			(xy 260.35 218.44) (xy 265.43 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c3c534-8ef1-4739-a187-f1eb7ef324ba")
 	)
 	(wire
 		(pts
@@ -8299,6 +8319,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 172.72) (xy 269.24 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7c4e05-cc38-4b74-addf-32f6ea794d7f")
+	)
+	(wire
+		(pts
 			(xy 26.67 147.32) (xy 35.56 147.32)
 		)
 		(stroke
@@ -8436,6 +8466,16 @@
 			(type default)
 		)
 		(uuid "af85c4d5-a62e-43b5-92a5-c124c89a23d4")
+	)
+	(wire
+		(pts
+			(xy 264.16 177.8) (xy 269.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3459f2b-42ef-4a4c-b2b4-5fc824e40cb9")
 	)
 	(wire
 		(pts
@@ -8979,6 +9019,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 170.18) (xy 269.24 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda2555a-2852-4f33-af25-3c5a160d5ca0")
+	)
+	(wire
+		(pts
 			(xy 104.14 167.64) (xy 107.95 167.64)
 		)
 		(stroke
@@ -9139,6 +9189,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 175.26) (xy 269.24 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb85f1a-f330-4f31-9e75-e3d6c5667605")
+	)
+	(wire
+		(pts
 			(xy 57.15 36.83) (xy 53.34 36.83)
 		)
 		(stroke
@@ -9247,7 +9307,7 @@
 		(uuid "1003cc0c-c2c0-4222-a26d-f61aa4e1287e")
 	)
 	(label "conn1-9"
-		(at 264.16 172.72 0)
+		(at 265.43 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9324,7 +9384,7 @@
 		(uuid "29e8925d-a5f6-4d7e-b868-2c8ff60b8729")
 	)
 	(label "d1"
-		(at 264.16 177.8 0)
+		(at 269.24 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9368,7 +9428,7 @@
 		(uuid "2e119643-69c8-49c7-a280-1051d98d5981")
 	)
 	(label "mosf3-out-d7"
-		(at 264.16 167.64 0)
+		(at 265.43 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9686,17 +9746,6 @@
 		)
 		(uuid "81c63811-ef52-48af-83b5-46e03c74d071")
 	)
-	(label "d2"
-		(at 265.43 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85b55e66-4c2f-4759-ac8c-0f9bef836364")
-	)
 	(label "d1"
 		(at 134.62 67.31 0)
 		(fields_autoplaced yes)
@@ -9729,17 +9778,6 @@
 			(justify left bottom)
 		)
 		(uuid "91ccf7ec-158a-4183-8970-e8f829a24c0a")
-	)
-	(label "d0"
-		(at 265.43 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95c3f44c-868b-44b7-bc25-0d7facfd106a")
 	)
 	(label "d8"
 		(at 196.85 128.27 0)
@@ -9851,8 +9889,19 @@
 		)
 		(uuid "b83069c8-7c93-4ba8-8822-847cb8c60a42")
 	)
+	(label "d0"
+		(at 269.24 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b977d405-84c8-41b9-8ee5-97e024f616a5")
+	)
 	(label "conn1-8"
-		(at 264.16 170.18 0)
+		(at 265.43 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9874,7 +9923,7 @@
 		(uuid "bd70d039-fdc5-4844-9558-7e3cd9b4d504")
 	)
 	(label "conn1-10"
-		(at 264.16 175.26 0)
+		(at 265.43 218.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9927,6 +9976,17 @@
 			(justify left bottom)
 		)
 		(uuid "c8184bd8-139c-4bb3-a34e-28a08c54c05c")
+	)
+	(label "d2"
+		(at 269.24 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c964e314-038c-4a08-a5c2-26d509efcf6e")
 	)
 	(label "d7"
 		(at 140.97 175.26 0)
@@ -11065,6 +11125,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12C")
+		(at 269.24 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d82fd1c-7adb-4861-9cae-85384d54f4dc")
+		(property "Reference" "#PWR033"
+			(at 265.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12C"
+			(at 273.05 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12C\""
+			(at 269.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2156eb8b-d35c-462d-8814-76a84d7eaeee")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5C")
 		(at 168.91 109.22 270)
 		(unit 1)
@@ -11751,73 +11878,6 @@
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 260.35 218.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3130d2a8-3521-47d1-9e39-ba4ee8a14f2e")
-		(property "Reference" "#PWR046"
-			(at 265.43 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 264.16 218.5669 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 260.35 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71fe9ac2-d4ee-4445-82c0-50d3d80e88c4")
-		)
-		(instances
-			(project ""
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
