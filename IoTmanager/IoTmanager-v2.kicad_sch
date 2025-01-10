@@ -7759,6 +7759,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 228.6) (xy 193.04 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d50c974-8c13-415d-b306-f982ef1eaf6c")
+	)
+	(wire
+		(pts
 			(xy 260.35 72.39) (xy 261.62 72.39)
 		)
 		(stroke
@@ -7819,7 +7829,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 223.52) (xy 48.26 227.33)
+			(xy 48.26 219.71) (xy 48.26 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8359,7 +8369,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 227.33) (xy 125.73 232.41)
+			(xy 125.73 222.25) (xy 125.73 232.41)
 		)
 		(stroke
 			(width 0)
@@ -9006,6 +9016,16 @@
 			(type default)
 		)
 		(uuid "f45a6d84-49eb-4ee5-96c9-0759ecbad590")
+	)
+	(wire
+		(pts
+			(xy 265.43 231.14) (xy 265.43 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fb1ba4-24c8-48a8-a5be-63443255e683")
 	)
 	(wire
 		(pts
@@ -12934,7 +12954,7 @@
 	)
 	(symbol
 		(lib_id "power:+12C")
-		(at 125.73 227.33 0)
+		(at 125.73 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12943,7 +12963,7 @@
 		(fields_autoplaced yes)
 		(uuid "58fcf89c-d36d-4ea5-85af-258a9544a2a6")
 		(property "Reference" "#PWR034"
-			(at 125.73 231.14 0)
+			(at 125.73 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,7 +12972,7 @@
 			)
 		)
 		(property "Value" "+5C"
-			(at 125.73 222.25 0)
+			(at 125.73 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12960,7 +12980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 227.33 0)
+			(at 125.73 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12969,7 +12989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 227.33 0)
+			(at 125.73 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,7 +12998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 125.73 227.33 0)
+			(at 125.73 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13265,7 @@
 	)
 	(symbol
 		(lib_id "power:+12C")
-		(at 48.26 223.52 0)
+		(at 48.26 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13254,7 +13274,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fbe069a-a5b0-4f6e-8b89-a98756ebabcf")
 		(property "Reference" "#PWR047"
-			(at 48.26 227.33 0)
+			(at 48.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13283,7 @@
 			)
 		)
 		(property "Value" "+5C"
-			(at 48.26 218.44 0)
+			(at 48.26 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13271,7 +13291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 223.52 0)
+			(at 48.26 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +13300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 223.52 0)
+			(at 48.26 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13289,7 +13309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 48.26 223.52 0)
+			(at 48.26 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +15907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 20.32 43.18 0)
 			(effects
 				(font
@@ -16338,7 +16358,7 @@
 	)
 	(symbol
 		(lib_id "power:+12C")
-		(at 193.04 237.49 0)
+		(at 193.04 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16347,7 +16367,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba74fc66-7115-4e82-b140-ebf4e07e099f")
 		(property "Reference" "#PWR051"
-			(at 193.04 241.3 0)
+			(at 193.04 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,7 +16376,7 @@
 			)
 		)
 		(property "Value" "+5C"
-			(at 193.04 232.41 0)
+			(at 193.04 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16364,7 +16384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 237.49 0)
+			(at 193.04 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16373,7 +16393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 237.49 0)
+			(at 193.04 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16382,7 +16402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 193.04 237.49 0)
+			(at 193.04 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17299,7 +17319,7 @@
 	)
 	(symbol
 		(lib_id "power:+12C")
-		(at 265.43 241.3 0)
+		(at 265.43 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17308,7 +17328,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5a4a5f1-b505-4ef4-82b1-e318444f4a4b")
 		(property "Reference" "#PWR054"
-			(at 265.43 245.11 0)
+			(at 265.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17317,7 +17337,7 @@
 			)
 		)
 		(property "Value" "+5C"
-			(at 265.43 236.22 0)
+			(at 265.43 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17325,7 +17345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 241.3 0)
+			(at 265.43 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17334,7 +17354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 241.3 0)
+			(at 265.43 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17343,7 +17363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 265.43 241.3 0)
+			(at 265.43 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
