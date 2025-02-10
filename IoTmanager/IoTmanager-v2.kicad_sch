@@ -9560,7 +9560,7 @@
 		(uuid "5bc9c22e-e30b-457e-94ab-de0fe33f8c93")
 	)
 	(label "d8"
-		(at 264.16 160.02 0)
+		(at 269.24 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11104,7 +11104,7 @@
 	)
 	(symbol
 		(lib_id "power:+12C")
-		(at 269.24 177.8 270)
+		(at 264.16 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11113,7 +11113,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d82fd1c-7adb-4861-9cae-85384d54f4dc")
 		(property "Reference" "#PWR033"
-			(at 265.43 177.8 0)
+			(at 260.35 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11122,7 @@
 			)
 		)
 		(property "Value" "+12C"
-			(at 273.05 177.7999 90)
+			(at 267.97 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +11131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 177.8 0)
+			(at 264.16 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 177.8 0)
+			(at 264.16 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 269.24 177.8 0)
+			(at 264.16 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11933,6 +11933,73 @@
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "Jumper-d7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 264.16 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3408799f-2ca5-4d85-8fa7-68cd1ae8cb53")
+		(property "Reference" "#PWR036"
+			(at 260.35 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 267.97 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 264.16 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d9564d2-ea21-4ac9-822d-5107656e31d7")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14690,6 +14757,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 264.16 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e786804-7b4e-486f-9d76-c51688454b3d")
+		(property "Reference" "#PWR045"
+			(at 269.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 267.97 152.5269 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 264.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8ff1d05-5807-48c4-9e7f-24f248cc3a86")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 182.88 279.4 0)
 		(unit 1)
@@ -14757,7 +14891,7 @@
 	)
 	(symbol
 		(lib_id "power:+5C")
-		(at 264.16 152.4 270)
+		(at 264.16 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14766,7 +14900,7 @@
 		(fields_autoplaced yes)
 		(uuid "81732777-2880-4d7f-a8a4-76f5df2fc9a7")
 		(property "Reference" "#PWR09"
-			(at 260.35 152.4 0)
+			(at 260.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +14909,7 @@
 			)
 		)
 		(property "Value" "+5C"
-			(at 267.97 152.3999 90)
+			(at 267.97 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14784,7 +14918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 152.4 0)
+			(at 264.16 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14793,7 +14927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 152.4 0)
+			(at 264.16 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14802,7 +14936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5C\""
-			(at 264.16 152.4 0)
+			(at 264.16 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

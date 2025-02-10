@@ -8328,6 +8328,16 @@
 		)
 		(uuid "fe03e250-11e6-4583-b9a5-74a7c5b50cf1")
 	)
+	(text "ds18b20, - d4\nrelay right - rx"
+		(exclude_from_sim no)
+		(at 186.436 186.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be4665e4-a3be-4f32-a1b4-7d22d2e830f6")
+	)
 	(label "d2"
 		(at 140.97 167.64 0)
 		(fields_autoplaced yes)
