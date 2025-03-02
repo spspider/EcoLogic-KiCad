@@ -209,7 +209,15 @@
       "mpn": ""
     },
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 49130844.62474647,
+        "name": "pins_names",
+        "w": 80739848.00540909,
+        "x": 66058794.861400485,
+        "y": 78331697.09263104
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -475,7 +483,7 @@
       "pos_files": "BOM-CPL/",
       "specctra_dsn": "topor/IoTmanager.dsn",
       "step": "IoTmanager.step",
-      "svg": "",
+      "svg": "../../../../../Users/Serhii_Paukov/Downloads/Temp/kicadexport/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
