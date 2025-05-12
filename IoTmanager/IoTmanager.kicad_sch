@@ -9590,7 +9590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08d4cacf-3646-4cdd-a593-16caaaf19e56")
-		(property "Reference" "J2"
+		(property "Reference" "RIGHT_JUMP_B_UP"
 			(at 259.715 144.78 0)
 			(effects
 				(font
@@ -9681,7 +9681,7 @@
 		(instances
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "J2")
+					(reference "RIGHT_JUMP_B_UP")
 					(unit 1)
 				)
 			)
@@ -15634,7 +15634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9330ef2-b8e8-4dc5-bddd-72358b3f9262")
-		(property "Reference" "J3"
+		(property "Reference" "UP_JUMP_R_L"
 			(at 255.905 185.42 0)
 			(effects
 				(font
@@ -15725,7 +15725,7 @@
 		(instances
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "J3")
+					(reference "UP_JUMP_R_L")
 					(unit 1)
 				)
 			)
