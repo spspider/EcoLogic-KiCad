@@ -1,4 +1,4 @@
-23863808224138435
+23867304422746563
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96788,6 +96788,20 @@ SIM800L-CORE
 0
 12
 12
+module-custom-for-esp8266
+SOT-363_DIO
+
+MMDT4413-7-F 
+0
+6
+6
+module-custom-for-esp8266
+Vishay_MINIMOLD-3Pin_GND_correct
+IR Receiver Vishay TSOP-xxxx, MINIMOLD package, see https://www.vishay.com/docs/82742/tsop331.pdf
+IR Receiver Vishay TSOP-xxxx MINIMOLD
+0
+3
+3
 module-custom-for-esp8266
 ams1117
 

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "e30adb8f-2050-4707-a23b-b56498f87e6f")
-	(paper "A3")
+	(paper "A2")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -4797,6 +4797,235 @@
 				)
 			)
 		)
+		(symbol "models:MMDT4413-7-F"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 25.4 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MMDT4413-7-F"
+				(at 25.4 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "module-custom-for-esp8266:SOT-363_DIO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "MMDT4413-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MMDT4413-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-363_DIO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMDT4413-7-F_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 43.18 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -10.16) (xy 43.18 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -5.08 180)
+					(length 7.62)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "models:Mini360"
 			(pin_names
 				(offset 1.016)
@@ -7925,6 +8154,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 295.91) (xy 80.01 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f38417-438c-46d9-9b28-7b80e66a933a")
+	)
+	(wire
+		(pts
 			(xy 57.15 34.29) (xy 57.15 36.83)
 		)
 		(stroke
@@ -8605,6 +8844,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 293.37) (xy 29.21 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936e3895-34aa-4016-b080-90f165194989")
+	)
+	(wire
+		(pts
 			(xy 91.44 157.48) (xy 91.44 163.83)
 		)
 		(stroke
@@ -8715,7 +8964,17 @@
 	)
 	(wire
 		(pts
-			(xy 2.54 262.89) (xy 12.7 262.89)
+			(xy 29.21 288.29) (xy 29.21 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36a5b39-c8a6-4252-80b8-b7138feeff40")
+	)
+	(wire
+		(pts
+			(xy 15.24 293.37) (xy 20.32 293.37)
 		)
 		(stroke
 			(width 0)
@@ -9192,6 +9451,16 @@
 			(type default)
 		)
 		(uuid "d76ff71c-e3d2-4e89-a895-04bf39e58358")
+	)
+	(wire
+		(pts
+			(xy 80.01 290.83) (xy 80.01 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d811c71f-0439-46c7-8ee6-cdc2be6cad21")
 	)
 	(wire
 		(pts
@@ -9775,7 +10044,7 @@
 		(uuid "3042b7b3-ba2d-4952-9cd3-2a2c7c7ccfd3")
 	)
 	(label "d3"
-		(at 2.54 262.89 0)
+		(at 15.24 293.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10585,7 +10854,7 @@
 	)
 	(symbol
 		(lib_id "models:R-1k")
-		(at 16.51 262.89 270)
+		(at 24.13 293.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10594,7 +10863,7 @@
 		(fields_autoplaced yes)
 		(uuid "04796baf-1c8c-4dd1-8285-841133f07ecd")
 		(property "Reference" "R21"
-			(at 16.51 254 90)
+			(at 24.13 284.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10871,7 @@
 			)
 		)
 		(property "Value" "R-1k"
-			(at 16.51 256.54 90)
+			(at 24.13 287.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,7 +10879,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 16.51 261.112 90)
+			(at 24.13 291.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +10888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 262.89 0)
+			(at 24.13 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10628,7 +10897,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 16.51 262.89 0)
+			(at 24.13 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10637,7 +10906,7 @@
 			)
 		)
 		(property "LCSC Part" "C25905"
-			(at 16.51 262.89 0)
+			(at 24.13 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10646,7 +10915,7 @@
 			)
 		)
 		(property "Supplier" "LCSCRef"
-			(at 16.51 262.89 0)
+			(at 24.13 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,6 +12241,72 @@
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 29.21 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a584bac-e15c-4378-8e3b-ea8af844e192")
+		(property "Reference" "#PWR062"
+			(at 29.21 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 29.21 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 29.21 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cfe8b7b-f0d7-4453-a9fd-f49683c30d80")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -13448,7 +13783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Vishay_MOLD-3Pin"
+		(property "Footprint" "module-custom-for-esp8266:Vishay_MINIMOLD-3Pin_GND_correct"
 			(at 218.44 137.795 0)
 			(effects
 				(font
@@ -15694,7 +16029,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8257e43f-bbdd-451c-b455-a06b616e9e1e")
@@ -17086,6 +17421,88 @@
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "models:MMDT4413-7-F")
+		(at 80.01 295.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab0f53bd-725a-48e0-a342-c0beffc003ab")
+		(property "Reference" "U8"
+			(at 54.61 280.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MMDT4413-7-F"
+			(at 54.61 283.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "module-custom-for-esp8266:SOT-363_DIO"
+			(at 80.01 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MMDT4413-7-F"
+			(at 80.01 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ad13be8-6d55-43da-9225-ffc0b400ae5a")
+		)
+		(pin "6"
+			(uuid "52fcbf98-6ef4-4010-a21e-121dd9448f8e")
+		)
+		(pin "1"
+			(uuid "bd31f152-0bcc-4d1c-81e8-e47982a5a3d6")
+		)
+		(pin "2"
+			(uuid "5274573f-5818-4e71-a43e-84a933271ed4")
+		)
+		(pin "5"
+			(uuid "b2a00244-275e-4693-b01e-c10363b9083e")
+		)
+		(pin "4"
+			(uuid "85ae3ad8-8a93-4254-8c7e-1f151abb238f")
+		)
+		(instances
+			(project ""
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -20119,6 +20536,72 @@
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 80.01 299.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7b7c321-ee4d-4d4d-ad2b-b4e8babcdce3")
+		(property "Reference" "#PWR061"
+			(at 80.01 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 79.883 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 80.01 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9dcc174-22df-449e-9f62-6e5fae1cec2c")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
