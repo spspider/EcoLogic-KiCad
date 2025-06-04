@@ -7891,16 +7891,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 180.34) (xy 163.83 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "113f9980-881b-405b-b519-9ba610096a62")
-	)
-	(wire
-		(pts
 			(xy 240.03 128.27) (xy 245.11 128.27)
 		)
 		(stroke
@@ -7908,6 +7898,16 @@
 			(type default)
 		)
 		(uuid "1156be8b-b37b-48e7-98c3-76d0c24c3f8e")
+	)
+	(wire
+		(pts
+			(xy 138.43 180.34) (xy 153.67 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ffb2df-f148-43e3-938d-3dadbab9e18c")
 	)
 	(wire
 		(pts
@@ -8098,16 +8098,6 @@
 			(type default)
 		)
 		(uuid "28cba248-6700-4e6d-bd95-699891f65ab2")
-	)
-	(wire
-		(pts
-			(xy 138.43 180.34) (xy 153.67 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298ab75f-02f5-4ce1-8a1d-b8df8cadfcec")
 	)
 	(wire
 		(pts
@@ -8441,6 +8431,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 262.89) (xy 20.32 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e1cc91-43dc-484c-9c38-22ac99b2f68a")
+	)
+	(wire
+		(pts
 			(xy 135.89 248.92) (xy 135.89 251.46)
 		)
 		(stroke
@@ -8698,6 +8698,16 @@
 			(type default)
 		)
 		(uuid "6e4e105a-2139-4cc9-8bf3-3c7d7c3a6714")
+	)
+	(wire
+		(pts
+			(xy 163.83 180.34) (xy 161.29 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7d8c98-4302-4c3d-b849-0b6248b461e3")
 	)
 	(wire
 		(pts
@@ -10878,6 +10888,17 @@
 		)
 		(uuid "ea9e88db-998b-43c4-b54a-6ffcbca55484")
 	)
+	(label "d3"
+		(at 15.24 262.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f03ce905-ad47-48aa-87a8-6c925b6f7f82")
+	)
 	(label "conn2-9"
 		(at 265.43 210.82 0)
 		(fields_autoplaced yes)
@@ -11057,10 +11078,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04796baf-1c8c-4dd1-8285-841133f07ecd")
 		(property "Reference" "R21"
-			(at 24.13 284.48 90)
+			(at 24.13 289.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11068,7 +11088,7 @@
 			)
 		)
 		(property "Value" "R-1k"
-			(at 24.13 287.02 90)
+			(at 24.384 290.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13462,6 +13482,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
