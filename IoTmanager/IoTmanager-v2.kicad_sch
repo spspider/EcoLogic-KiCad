@@ -6008,6 +6008,152 @@
 				)
 			)
 		)
+		(symbol "models:SW_PUSH_6mm_H4.3mm"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_PUSH_6mm_H4.3mm"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "module-custom-for-esp8266:SW_PUSH_6mm_H4.3mm"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, separate symbols, four pins"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_PUSH_6mm_H4.3mm_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_PUSH_6mm_H4.3mm_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "models:c-in-plastic-standard"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7082,6 +7228,12 @@
 		(uuid "1c128ef7-cd32-433f-91d9-166e1aeb7fa2")
 	)
 	(junction
+		(at 163.83 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "209edfc8-68d1-4628-8e5d-a22df92e1f3d")
+	)
+	(junction
 		(at 182.88 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7128,6 +7280,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d238374-864f-49b0-a98d-ef1408d7598f")
+	)
+	(junction
+		(at 142.24 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72040264-af7f-4c14-908d-2d1d1cdea267")
 	)
 	(junction
 		(at 265.43 241.3)
@@ -7413,6 +7571,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 162.56) (xy 142.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f4382b-d1ad-4249-a0b6-058c16d77363")
+	)
+	(wire
+		(pts
 			(xy 265.43 241.3) (xy 265.43 245.11)
 		)
 		(stroke
@@ -7493,7 +7661,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 167.64) (xy 144.78 167.64)
+			(xy 138.43 167.64) (xy 142.24 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8303,6 +8471,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 162.56) (xy 166.37 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743879ad-d130-4d5a-aa18-7fe4ddd07693")
+	)
+	(wire
+		(pts
 			(xy 123.19 190.5) (xy 123.19 193.04)
 		)
 		(stroke
@@ -8620,6 +8798,16 @@
 			(type default)
 		)
 		(uuid "948af0d4-2c22-4212-a3b1-637f3e000561")
+	)
+	(wire
+		(pts
+			(xy 142.24 167.64) (xy 144.78 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948ec4c6-a5fb-46de-8b04-ab29cf195fda")
 	)
 	(wire
 		(pts
@@ -9353,6 +9541,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 162.56) (xy 176.53 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3842ea5-bdef-459a-9c0b-36c3b5b5cf39")
+	)
+	(wire
+		(pts
 			(xy 99.06 138.43) (xy 87.63 138.43)
 		)
 		(stroke
@@ -9390,6 +9588,16 @@
 			(type default)
 		)
 		(uuid "e8f4817b-a119-417f-8dde-dc999b5094c1")
+	)
+	(wire
+		(pts
+			(xy 176.53 180.34) (xy 163.83 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb99a04-c918-4277-baa0-4c92a5e0ed0d")
 	)
 	(wire
 		(pts
@@ -19864,6 +20072,74 @@
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "models:SW_PUSH_6mm_H4.3mm")
+		(at 171.45 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec987361-5fb5-426a-9228-db9fb9bd3fc8")
+		(property "Reference" "SW1"
+			(at 171.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_6mm_H4.3mm"
+			(at 171.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "module-custom-for-esp8266:SW_PUSH_6mm_H4.3mm"
+			(at 171.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 171.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9ada378-4c18-462a-8fd9-d7be72b3b4cc")
+		)
+		(pin "1"
+			(uuid "d1fc461b-da7c-4669-a9d8-85e30093772f")
+		)
+		(instances
+			(project ""
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
