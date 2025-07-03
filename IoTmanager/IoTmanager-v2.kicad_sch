@@ -7871,6 +7871,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 177.8) (xy 284.48 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc3a227-5ebd-4b59-8a0e-f3a0d0437b35")
+	)
+	(wire
+		(pts
 			(xy 267.97 59.69) (xy 267.97 72.39)
 		)
 		(stroke
@@ -9061,7 +9071,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 177.8) (xy 269.24 177.8)
+			(xy 264.16 177.8) (xy 274.32 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9431,6 +9441,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 170.18) (xy 289.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b4e8e5-f82b-4634-a063-0f7dccadb188")
+	)
+	(wire
+		(pts
 			(xy 144.78 236.22) (xy 147.32 236.22)
 		)
 		(stroke
@@ -9631,7 +9651,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 170.18) (xy 269.24 170.18)
+			(xy 264.16 170.18) (xy 279.4 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10183,7 +10203,7 @@
 		(uuid "5bc9c22e-e30b-457e-94ab-de0fe33f8c93")
 	)
 	(label "d8"
-		(at 269.24 177.8 0)
+		(at 284.48 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10324,6 +10344,17 @@
 			(justify left bottom)
 		)
 		(uuid "7612e398-e819-4406-990e-4c28d4b3dc8b")
+	)
+	(label "tx"
+		(at 289.56 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78e8f3e1-61c7-4389-9795-67fde6255a69")
 	)
 	(label "conn2-2"
 		(at 265.43 193.04 0)
@@ -11519,6 +11550,91 @@
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "models:R-10k")
+		(at 283.21 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "128b7963-e724-417c-b6a5-0a348ddeb85f")
+		(property "Reference" "R12-10k5"
+			(at 283.21 168.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-1k"
+			(at 283.464 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 283.21 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 283.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 283.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSCRef"
+			(at 283.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ef683bf-b891-4845-805d-3cfeb605abe6")
+		)
+		(pin "2"
+			(uuid "45439e70-e71a-43f4-9ab4-bdecc6304a38")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "R12-10k5")
 					(unit 1)
 				)
 			)
@@ -16995,7 +17111,7 @@
 				)
 			)
 		)
-		(property "Value" "R-1k"
+		(property "Value" "R-4k7"
 			(at 148.59 170.18 90)
 			(effects
 				(font
@@ -18656,7 +18772,7 @@
 				)
 			)
 		)
-		(property "Value" "R-1k"
+		(property "Value" "R-4k7"
 			(at 148.59 167.64 90)
 			(effects
 				(font
@@ -20378,6 +20494,91 @@
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "models:R-10k")
+		(at 278.13 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3e79f17-96fd-476c-a7d2-2605662511b8")
+		(property "Reference" "R12-10k4"
+			(at 278.13 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-1k"
+			(at 278.13 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 278.13 179.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 278.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 278.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSCRef"
+			(at 278.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98b81dc7-bec9-4410-90a7-974db634c85c")
+		)
+		(pin "2"
+			(uuid "9950a93c-e8e7-4d2a-8a17-333fd7fd66eb")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "R12-10k4")
 					(unit 1)
 				)
 			)
