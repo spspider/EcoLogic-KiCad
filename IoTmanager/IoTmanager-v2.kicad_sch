@@ -2935,6 +2935,246 @@
 				)
 			)
 		)
+		(symbol "MMDT4413-7-F_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 15.24 21.59 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MMDT4413"
+				(at 15.24 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "module-custom-for-esp8266:SOT-363_DIO"
+				(at 15.24 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "MMDT4413-7-F"
+				(at 16.51 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 12.7 -6.35 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MMDT4413-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-363_DIO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMDT4413-7-F_1_0_1"
+				(polyline
+					(pts
+						(xy 8.89 -2.54) (xy 21.59 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 7.62) (xy 8.89 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 -2.54) (xy 21.59 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 7.62) (xy 8.89 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.795 -0.635)
+					(radius 0.898)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -6.35 90)
+					(length 3.62)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -6.35 90)
+					(length 3.62)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -6.35 90)
+					(length 3.62)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 11.43 270)
+					(length 3.62)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 11.43 270)
+					(length 3.62)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 11.43 270)
+					(length 3.62)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RF_Module:ESP-12F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8311,16 +8551,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 245.11) (xy 38.1 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43bd95eb-0d46-4c0f-8e7d-ac708834d173")
-	)
-	(wire
-		(pts
 			(xy 87.63 245.11) (xy 87.63 307.34)
 		)
 		(stroke
@@ -8341,7 +8571,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 266.7) (xy 76.2 270.51)
+			(xy 38.1 288.29) (xy 38.1 292.1)
 		)
 		(stroke
 			(width 0)
@@ -8488,16 +8718,6 @@
 			(type default)
 		)
 		(uuid "55a724ad-b960-4f8d-871e-c6ceb13391f8")
-	)
-	(wire
-		(pts
-			(xy 20.32 266.7) (xy 20.32 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b517f1-5544-4473-8be2-f9dcf4394a66")
 	)
 	(wire
 		(pts
@@ -9131,7 +9351,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 264.16) (xy 25.4 264.16)
+			(xy 40.64 269.24) (xy 40.64 270.51)
 		)
 		(stroke
 			(width 0)
@@ -9261,7 +9481,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 259.08) (xy 25.4 261.62)
+			(xy 43.18 256.54) (xy 43.18 270.51)
 		)
 		(stroke
 			(width 0)
@@ -9291,7 +9511,7 @@
 	)
 	(wire
 		(pts
-			(xy 11.43 264.16) (xy 16.51 264.16)
+			(xy 40.64 256.54) (xy 40.64 261.62)
 		)
 		(stroke
 			(width 0)
@@ -9551,16 +9771,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 266.7) (xy 20.32 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c129fb2e-c573-48dd-9a1b-9c757d52acd6")
-	)
-	(wire
-		(pts
 			(xy 102.87 157.48) (xy 102.87 175.26)
 		)
 		(stroke
@@ -9701,6 +9911,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 288.29) (xy 43.18 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd5394c-b858-4c02-817c-424f66781beb")
+	)
+	(wire
+		(pts
 			(xy 165.1 109.22) (xy 168.91 109.22)
 		)
 		(stroke
@@ -9808,16 +10028,6 @@
 			(type default)
 		)
 		(uuid "d76ff71c-e3d2-4e89-a895-04bf39e58358")
-	)
-	(wire
-		(pts
-			(xy 76.2 261.62) (xy 76.2 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d811c71f-0439-46c7-8ee6-cdc2be6cad21")
 	)
 	(wire
 		(pts
@@ -10038,6 +10248,16 @@
 			(type default)
 		)
 		(uuid "f154286d-4bb5-4c7f-88bb-1df09b1d9168")
+	)
+	(wire
+		(pts
+			(xy 38.1 245.11) (xy 38.1 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f190c12e-6cb0-40c5-a915-4e08cdb2396e")
 	)
 	(wire
 		(pts
@@ -10410,13 +10630,13 @@
 		(uuid "3042b7b3-ba2d-4952-9cd3-2a2c7c7ccfd3")
 	)
 	(label "d3"
-		(at 11.43 264.16 0)
+		(at 40.64 256.54 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "33b087f7-5738-4164-98a0-5be59a532654")
 	)
@@ -11242,7 +11462,7 @@
 	)
 	(symbol
 		(lib_id "models:R-1k")
-		(at 20.32 264.16 270)
+		(at 40.64 265.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11250,7 +11470,7 @@
 		(dnp no)
 		(uuid "04796baf-1c8c-4dd1-8285-841133f07ecd")
 		(property "Reference" "R21"
-			(at 20.32 259.842 90)
+			(at 44.958 265.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +11478,7 @@
 			)
 		)
 		(property "Value" "R-1k"
-			(at 20.574 261.62 90)
+			(at 43.18 265.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,7 +11486,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 20.32 262.382 90)
+			(at 42.418 265.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11275,7 +11495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 264.16 0)
+			(at 40.64 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,7 +11504,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 20.32 264.16 0)
+			(at 40.64 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11293,7 +11513,7 @@
 			)
 		)
 		(property "LCSC Part" "C25905"
-			(at 20.32 264.16 0)
+			(at 40.64 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,7 +11522,7 @@
 			)
 		)
 		(property "Supplier" "LCSCRef"
-			(at 20.32 264.16 0)
+			(at 40.64 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11975,6 +12195,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "R-1k"
@@ -12719,6 +12940,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
@@ -13015,7 +13237,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 25.4 259.08 0)
+		(at 43.18 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13024,7 +13246,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a584bac-e15c-4378-8e3b-ea8af844e192")
 		(property "Reference" "#PWR062"
-			(at 25.4 262.89 0)
+			(at 43.18 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13033,7 +13255,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 25.4 254 0)
+			(at 43.18 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13041,7 +13263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 259.08 0)
+			(at 43.18 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,7 +13272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 259.08 0)
+			(at 43.18 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13059,7 +13281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 259.08 0)
+			(at 43.18 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14549,7 +14771,7 @@
 			)
 		)
 		(property "Footprint" "module-custom-for-esp8266:PJ-320A"
-			(at 35.56 151.13 0)
+			(at 40.132 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17442,15 +17664,16 @@
 		(dnp no)
 		(uuid "9a8c9344-7884-4401-9889-726184cd471c")
 		(property "Reference" "R12-10k3"
-			(at 148.59 168.148 90)
+			(at 156.972 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "R-4k7"
-			(at 148.59 170.18 90)
+			(at 149.098 173.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17824,8 +18047,9 @@
 		)
 	)
 	(symbol
+		(lib_name "MMDT4413-7-F_1")
 		(lib_id "models:MMDT4413-7-F")
-		(at 76.2 266.7 180)
+		(at 25.4 281.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17834,23 +18058,25 @@
 		(fields_autoplaced yes)
 		(uuid "ab0f53bd-725a-48e0-a342-c0beffc003ab")
 		(property "Reference" "U8"
-			(at 50.8 251.46 0)
+			(at 48.26 278.1299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MMDT4413-7-F"
-			(at 50.8 254 0)
+		(property "Value" "MMDT4413"
+			(at 48.26 280.6699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "module-custom-for-esp8266:SOT-363_DIO"
-			(at 76.2 266.7 0)
+			(at 40.64 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17860,7 +18086,7 @@
 			)
 		)
 		(property "Datasheet" "MMDT4413-7-F"
-			(at 76.2 266.7 0)
+			(at 41.91 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17870,7 +18096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 266.7 0)
+			(at 38.1 288.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19103,15 +19329,16 @@
 		(dnp no)
 		(uuid "d4f117f5-497a-40fa-8a4b-e3d24a417ed3")
 		(property "Reference" "R12-10k2"
-			(at 148.59 165.608 90)
+			(at 153.416 164.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "R-4k7"
-			(at 148.59 167.64 90)
+			(at 150.622 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20980,6 +21207,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "R-1k"
@@ -21141,7 +21369,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 76.2 270.51 0)
+		(at 38.1 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21150,7 +21378,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7b7c321-ee4d-4d4d-ad2b-b4e8babcdce3")
 		(property "Reference" "#PWR061"
-			(at 76.2 275.59 0)
+			(at 38.1 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21159,7 +21387,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 76.073 274.32 0)
+			(at 37.973 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21167,7 +21395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 271.78 0)
+			(at 38.1 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21176,7 +21404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 271.78 0)
+			(at 38.1 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21185,7 +21413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 270.51 0)
+			(at 38.1 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

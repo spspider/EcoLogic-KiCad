@@ -6102,7 +6102,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.7)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -8204,7 +8204,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.7)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -8918,7 +8918,7 @@
 		(uuid "b1197b9c-a61b-4350-82c3-d5c6975f3fca")
 		(at 127.705 103.1 180)
 		(property "Reference" "U5"
-			(at 8.4455 -3.269 360)
+			(at 8.4455 -3.269 0)
 			(layer "F.SilkS")
 			(uuid "1fe82094-28c9-4bf9-8cab-3d23ff01342c")
 			(effects
@@ -8929,7 +8929,7 @@
 			)
 		)
 		(property "Value" "PJ-320A"
-			(at 8.4455 -4.539 360)
+			(at 8.4455 -4.539 0)
 			(layer "F.Fab")
 			(uuid "c26ab11d-0dba-4e37-a33e-15e0c0844726")
 			(effects
@@ -8940,7 +8940,7 @@
 			)
 		)
 		(property "Footprint" "module-custom-for-esp8266:PJ-320A"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1a0ad39-1a8d-46bb-b3bd-c874caa6e726")
@@ -8952,7 +8952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dad6bfa0-8f62-4927-b0a7-9aff6fcbf54b")
@@ -8964,7 +8964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "54dde063-a994-4844-8014-8cc4025b5289")
@@ -18163,7 +18163,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "Jumper-d5"
-			(at -1.85 0.26 360)
+			(at -1.85 0.26 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "be9495cd-c155-4db1-8281-45dc18c50c93")
@@ -18176,7 +18176,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 2.5125 -0.6 360)
+			(at 2.5125 -0.6 0)
 			(layer "B.Fab")
 			(uuid "0fbec711-2a12-44d1-a878-a599fb363c2e")
 			(effects
@@ -18349,7 +18349,7 @@
 			(uuid "43e0388a-092e-4846-8775-4db59c05fa59")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.0125 0.3 360)
+			(at 1.0125 0.3 0)
 			(layer "B.Fab")
 			(uuid "40017219-2505-4627-8e5d-87fb2b27130e")
 			(effects
@@ -18689,7 +18689,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MMDT4413-7-F"
+		(property "Value" "MMDT4413"
 			(at -0.3 2.2 0)
 			(unlocked yes)
 			(layer "B.Fab")
