@@ -4118,6 +4118,426 @@
 				)
 			)
 		)
+		(symbol "models:5.5powerIn"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5.5powerin"
+				(at -7.62 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "54-00133:TENSILITY_54-00133"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Tensility International Corp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "10.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/54-00133/Tensility/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/54-00133/Tensility/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "54-00133"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Connector, dc jack 5.5x2.1 mm, PCB mount, 90 degrees, silver plated, thru hole\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TENSILITY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "54-00133"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5.5powerIn_0_0"
+				(arc
+					(start -8.255 3.81)
+					(mid -9.5194 2.54)
+					(end -8.255 1.27)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.255 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -6.985 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -2.54) (xy -6.35 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -8.255 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.445) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -5.715 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 0 4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy -1.27 4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -4.318 -1.27) (xy -3.302 -1.27) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "models:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6154,122 +6574,6 @@
 				)
 			)
 		)
-		(symbol "models:c-in-plastic-standard"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "dc-in"
-				(at 3.81 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "module-custom-for-esp8266:dc-in-plastic-standard"
-				(at 5.588 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "c-in-plastic-standard_0_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 8.89 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "c-in-plastic-standard_1_1"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "+12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -5.08 0)
-					(length 2.54)
-					(name "conn"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12C"
 			(power)
 			(pin_numbers hide)
@@ -7324,6 +7628,12 @@
 		(uuid "943aeed8-b8e2-4d4f-bb05-fb7b87744598")
 	)
 	(junction
+		(at 106.68 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a09fa5ac-545d-452b-a9bc-7d368d7d0db5")
+	)
+	(junction
 		(at 224.79 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7961,6 +8271,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 16.51) (xy 109.22 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbfef3a-561c-4d75-9720-3d83abcc43c4")
+	)
+	(wire
+		(pts
 			(xy 140.97 125.73) (xy 148.59 125.73)
 		)
 		(stroke
@@ -8008,6 +8328,16 @@
 			(type default)
 		)
 		(uuid "45e90ded-5e5a-4c4b-9770-429aa846996b")
+	)
+	(wire
+		(pts
+			(xy 109.22 16.51) (xy 109.22 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d1e4d4-d812-4bdf-bda6-68c16ea13896")
 	)
 	(wire
 		(pts
@@ -8341,16 +8671,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 21.59) (xy 93.98 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68132eb2-4b7a-426d-ad13-bdc081ce95b3")
-	)
-	(wire
-		(pts
 			(xy 138.43 175.26) (xy 140.97 175.26)
 		)
 		(stroke
@@ -8621,6 +8941,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 17.78) (xy 114.3 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845b4dd8-71f3-4c9f-9c9f-f219de57a1be")
+	)
+	(wire
+		(pts
 			(xy 99.06 135.89) (xy 99.06 138.43)
 		)
 		(stroke
@@ -8691,16 +9021,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 19.05) (xy 93.98 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7a9e18-a58f-4fb6-bce3-1a8bb88c7d9e")
-	)
-	(wire
-		(pts
 			(xy 214.63 62.23) (xy 214.63 73.66)
 		)
 		(stroke
@@ -8761,6 +9081,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 21.59) (xy 106.68 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917b1a6d-7bba-4e9f-a029-12cf14730812")
+	)
+	(wire
+		(pts
 			(xy 152.4 170.18) (xy 161.29 170.18)
 		)
 		(stroke
@@ -8768,6 +9098,16 @@
 			(type default)
 		)
 		(uuid "9272cef9-0433-4f22-b8e9-924b7431ce21")
+	)
+	(wire
+		(pts
+			(xy 102.87 19.05) (xy 106.68 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9279feb5-7de9-4c78-bb2e-f2094adff2e3")
 	)
 	(wire
 		(pts
@@ -9681,6 +10021,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 19.05) (xy 106.68 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f039c814-d8e2-4c20-b96d-38494bacf599")
+	)
+	(wire
+		(pts
 			(xy 99.06 177.8) (xy 102.87 177.8)
 		)
 		(stroke
@@ -9948,17 +10298,6 @@
 			(justify left bottom)
 		)
 		(uuid "1657a850-3a0a-4ef2-8506-91adf07c953b")
-	)
-	(label "tx"
-		(at 80.01 266.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ad45e3f-3871-496d-b3a5-3f4feb5afe59")
 	)
 	(label "d0"
 		(at 134.62 64.77 0)
@@ -10751,6 +11090,72 @@
 			(justify left bottom)
 		)
 		(uuid "fca15a2a-5705-447b-92d9-715ad787e85d")
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 106.68 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00c6b464-f740-4f70-9a02-5d4a95745087")
+		(property "Reference" "#PWR011"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 106.553 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 106.68 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be98b5ee-176c-4e3a-b97c-54f082552719")
+		)
+		(instances
+			(project ""
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
@@ -14144,7 +14549,7 @@
 			)
 		)
 		(property "Footprint" "module-custom-for-esp8266:PJ-320A"
-			(at 40.132 158.242 0)
+			(at 35.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16591,73 +16996,6 @@
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 90.17 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8aa3efe6-f105-40fd-8d85-0ca358516aec")
-		(property "Reference" "#PWR011"
-			(at 85.09 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 86.36 21.4629 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 90.17 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f44d029b-45a2-48c2-ac1d-6427ebb6e3a5")
-		)
-		(instances
-			(project ""
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -19436,7 +19774,7 @@
 		)
 	)
 	(symbol
-		(lib_id "models:c-in-plastic-standard")
+		(lib_id "models:5.5powerIn")
 		(at 97.79 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19446,30 +19784,29 @@
 		(fields_autoplaced yes)
 		(uuid "e1b56f9d-89ec-46a7-966e-d262ff400232")
 		(property "Reference" "dc-in1"
-			(at 107.95 19.6849 0)
+			(at 93.0303 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 107.95 21.59 0)
+			(at 93.0303 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "module-custom-for-esp8266:dc-in-plastic-standard"
-			(at 107.95 23.4949 0)
+		(property "Footprint" "module-custom-for-esp8266:5.5PowerIn"
+			(at 97.79 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -19499,13 +19836,143 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "MF" "Tensility International Corp"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.8mm"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54-00133/Tensility/view-part/?ref=eda"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54-00133/Tensility/view-part/?ref=snap"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54-00133"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Connector, dc jack 5.5x2.1 mm, PCB mount, 90 degrees, silver plated, thru hole\n                        \n"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TENSILITY"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54-00133"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "B"
 			(uuid "f3ed1f1c-bf5f-4bd4-8021-2433dbadd2f2")
 		)
-		(pin "2"
+		(pin "C"
 			(uuid "90a0374c-4bda-4611-ba03-1e3456bfd4f7")
 		)
-		(pin "3"
+		(pin "A"
 			(uuid "6788a7a2-4e09-4b87-990c-1cfa4a04ae98")
 		)
 		(instances
@@ -19729,16 +20196,15 @@
 	)
 	(symbol
 		(lib_id "power:+12C")
-		(at 90.17 19.05 90)
+		(at 114.3 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e826af3d-75fc-49be-8d1a-5094a6077509")
 		(property "Reference" "#PWR010"
-			(at 93.98 19.05 0)
+			(at 114.3 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19747,7 +20213,7 @@
 			)
 		)
 		(property "Value" "+12C"
-			(at 86.36 19.0499 90)
+			(at 112.014 23.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19756,7 +20222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 19.05 0)
+			(at 114.3 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19765,7 +20231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 19.05 0)
+			(at 114.3 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19774,7 +20240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 90.17 19.05 0)
+			(at 114.3 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
