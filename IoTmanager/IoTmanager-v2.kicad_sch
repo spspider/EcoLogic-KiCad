@@ -7593,6 +7593,12 @@
 		(uuid "04575f98-9424-4b14-a788-189200f5e740")
 	)
 	(junction
+		(at 125.73 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "048bfffd-ad1e-4bd0-9ea6-6a4ac4d87d8b")
+	)
+	(junction
 		(at 115.57 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7603,12 +7609,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b009e76-f7fc-4528-af2b-b86bdc676ae0")
-	)
-	(junction
-		(at 48.26 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0be225d5-ccbb-40c6-9594-5030c15b5cdd")
 	)
 	(junction
 		(at 312.42 44.45)
@@ -7683,16 +7683,22 @@
 		(uuid "5d238374-864f-49b0-a98d-ef1408d7598f")
 	)
 	(junction
+		(at 265.43 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bfc86ae-105c-4ad4-9dca-0782cff118a0")
+	)
+	(junction
 		(at 142.24 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72040264-af7f-4c14-908d-2d1d1cdea267")
 	)
 	(junction
-		(at 265.43 241.3)
+		(at 48.26 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ac31327-ae43-4fff-a699-a6cfcd73f758")
+		(uuid "79d8fb5c-d176-4e3e-8062-df899b0a0554")
 	)
 	(junction
 		(at 179.07 63.5)
@@ -7725,6 +7731,12 @@
 		(uuid "943aeed8-b8e2-4d4f-bb05-fb7b87744598")
 	)
 	(junction
+		(at 193.04 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95dbfbd9-8811-476a-9e39-0a3d26a894d0")
+	)
+	(junction
 		(at 106.68 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7741,12 +7753,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b47a4962-93ad-419b-a86c-cbafc4a86bff")
-	)
-	(junction
-		(at 125.73 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b63cee49-c9e9-4b75-a442-f905a5825e77")
 	)
 	(junction
 		(at 91.44 157.48)
@@ -7777,12 +7783,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e19d9626-e836-4d66-bf19-87d592e40c23")
-	)
-	(junction
-		(at 193.04 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e28b43d4-0682-485c-b568-7a8ba6b45437")
 	)
 	(junction
 		(at 278.13 82.55)
@@ -7867,6 +7867,16 @@
 			(type default)
 		)
 		(uuid "03aa88e8-c5c8-4c63-bbef-102851850f2e")
+	)
+	(wire
+		(pts
+			(xy 44.45 214.63) (xy 48.26 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05246984-e572-4c6b-b0d7-891156abba7d")
 	)
 	(wire
 		(pts
@@ -7977,6 +7987,16 @@
 			(type default)
 		)
 		(uuid "11ffb2df-f148-43e3-938d-3dadbab9e18c")
+	)
+	(wire
+		(pts
+			(xy 193.04 226.06) (xy 193.04 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12564b23-cd8f-48f9-bafc-9ae03ff98452")
 	)
 	(wire
 		(pts
@@ -8220,6 +8240,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 234.95) (xy 265.43 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281a005e-fb15-4e63-b2b0-0c553c4ec26d")
+	)
+	(wire
+		(pts
 			(xy 320.04 30.48) (xy 312.42 30.48)
 		)
 		(stroke
@@ -8447,6 +8477,16 @@
 			(type default)
 		)
 		(uuid "4349462c-9129-4adf-b814-c909ce8707c8")
+	)
+	(wire
+		(pts
+			(xy 48.26 214.63) (xy 48.26 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d724d3-1585-4974-9508-9bec382f7f70")
 	)
 	(wire
 		(pts
@@ -8690,16 +8730,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 228.6) (xy 193.04 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d50c974-8c13-415d-b306-f982ef1eaf6c")
-	)
-	(wire
-		(pts
 			(xy 66.04 234.95) (xy 68.58 234.95)
 		)
 		(stroke
@@ -8707,6 +8737,16 @@
 			(type default)
 		)
 		(uuid "5df62eb3-0527-4dc4-b5a3-773558ed5632")
+	)
+	(wire
+		(pts
+			(xy 125.73 219.71) (xy 125.73 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea333bf-c4fa-489a-816a-6cff3792b6fd")
 	)
 	(wire
 		(pts
@@ -8770,16 +8810,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 219.71) (xy 48.26 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66cafee2-22ec-4e0c-9b45-e54486d2829e")
-	)
-	(wire
-		(pts
 			(xy 224.79 62.23) (xy 224.79 68.58)
 		)
 		(stroke
@@ -8827,6 +8857,16 @@
 			(type default)
 		)
 		(uuid "6b0cf8cf-1f01-4b1e-b3ad-9a8777ac30e3")
+	)
+	(wire
+		(pts
+			(xy 44.45 212.09) (xy 48.26 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd63fe8-90b4-4693-a6c8-425991bf680e")
 	)
 	(wire
 		(pts
@@ -9480,16 +9520,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 222.25) (xy 125.73 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac97c9b0-928a-42db-90a5-83baed481af7")
-	)
-	(wire
-		(pts
 			(xy 265.43 245.11) (xy 266.7 245.11)
 		)
 		(stroke
@@ -9697,6 +9727,16 @@
 			(type default)
 		)
 		(uuid "bf195691-b66d-4049-929c-f261551ce351")
+	)
+	(wire
+		(pts
+			(xy 48.26 212.09) (xy 48.26 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6d50d1-d4e2-40b6-9ed0-a7148a9a2436")
 	)
 	(wire
 		(pts
@@ -10240,16 +10280,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 231.14) (xy 265.43 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4fb1ba4-24c8-48a8-a5be-63443255e683")
-	)
-	(wire
-		(pts
 			(xy 140.97 160.02) (xy 138.43 160.02)
 		)
 		(stroke
@@ -10412,6 +10442,17 @@
 			(justify left bottom)
 		)
 		(uuid "0749bd6b-6938-4dfe-a586-29752f3e2d29")
+	)
+	(label "pwrRel"
+		(at 193.04 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "074eddaf-ec81-4901-80a8-b8f616b04a86")
 	)
 	(label "rx"
 		(at 140.97 165.1 0)
@@ -10952,6 +10993,17 @@
 		)
 		(uuid "91ccf7ec-158a-4183-8970-e8f829a24c0a")
 	)
+	(label "pwrRel"
+		(at 265.43 234.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94c7ecd2-3751-414a-be3d-2d3656512e34")
+	)
 	(label "d2"
 		(at 196.85 128.27 0)
 		(fields_autoplaced yes)
@@ -11084,6 +11136,17 @@
 		)
 		(uuid "c08bb8c2-d9b6-4f13-82df-cb8f21f07795")
 	)
+	(label "pwrRel"
+		(at 125.73 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3859b09-7149-4b88-8a5b-d3c98dfd980e")
+	)
 	(label "conn2-1"
 		(at 265.43 190.5 0)
 		(fields_autoplaced yes)
@@ -11215,6 +11278,17 @@
 			(justify left bottom)
 		)
 		(uuid "e64cb390-1a46-448b-b2b4-945ed3fef5b2")
+	)
+	(label "pwrRel"
+		(at 48.26 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5e95be2-3523-4106-b5f3-eff6056244b4")
 	)
 	(label "conn2-9"
 		(at 265.43 210.82 0)
@@ -15117,72 +15191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12C")
-		(at 125.73 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58fcf89c-d36d-4ea5-85af-258a9544a2a6")
-		(property "Reference" "#PWR034"
-			(at 125.73 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5C"
-			(at 125.73 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 125.73 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "742cdc84-4ddd-4121-be4b-26e30e6a515c")
-		)
-		(instances
-			(project "IoTmanager"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5C")
 		(at 45.72 21.59 0)
 		(unit 1)
@@ -15334,8 +15342,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 39.37 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dc76866-1099-4ee6-b5c5-2d66af16ac29")
+		(property "Reference" "J1"
+			(at 40.005 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "powerRelay"
+			(at 40.005 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 39.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 39.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 39.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99d21e6e-d1b4-4abd-9768-8a8d51fd41cf")
+		)
+		(pin "1"
+			(uuid "a253b8f3-f24a-490c-a4b7-b75c53acca88")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12C")
-		(at 48.26 219.71 0)
+		(at 48.26 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15344,7 +15429,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fbe069a-a5b0-4f6e-8b89-a98756ebabcf")
 		(property "Reference" "#PWR047"
-			(at 48.26 223.52 0)
+			(at 48.26 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15353,7 +15438,7 @@
 			)
 		)
 		(property "Value" "+5C"
-			(at 48.26 214.63 0)
+			(at 48.26 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15361,7 +15446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 219.71 0)
+			(at 48.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15370,7 +15455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 219.71 0)
+			(at 48.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15379,7 +15464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 48.26 219.71 0)
+			(at 48.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18423,72 +18508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12C")
-		(at 193.04 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba74fc66-7115-4e82-b140-ebf4e07e099f")
-		(property "Reference" "#PWR051"
-			(at 193.04 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5C"
-			(at 193.04 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 193.04 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8964ae05-5a68-471d-ba0d-0821f9cd582b")
-		)
-		(instances
-			(project "IoTmanager"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 88.9 87.63 0)
 		(unit 1)
@@ -19492,72 +19511,6 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "R12-10k2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12C")
-		(at 265.43 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5a4a5f1-b505-4ef4-82b1-e318444f4a4b")
-		(property "Reference" "#PWR054"
-			(at 265.43 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5C"
-			(at 265.43 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 265.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b55abaa3-6bc5-43e4-9ffa-9fc6d3fc2e1d")
-		)
-		(instances
-			(project "IoTmanager"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
