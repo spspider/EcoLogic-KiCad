@@ -443,20 +443,37 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.2,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 1.0,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.4,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.4,
+        "via_diameter": 2.0,
+        "via_drill": 1.5,
+        "wire_width": 10
       }
     ],
     "meta": {
@@ -464,7 +481,60 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "normal net"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn1-8"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn1-9"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn1-10"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-7"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-8"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-9"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-1"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-2"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-3"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-4"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-5"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/conn2-6"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -473,7 +543,7 @@
       "netlist": "../../../../../../Program Files/KiCad/8.0/",
       "plot": "gerber/",
       "pos_files": "BOM-CPL/",
-      "specctra_dsn": "topor/IoTmanager.dsn",
+      "specctra_dsn": "topor2/IoTmanager_v2.dsn",
       "step": "IoTmanager.step",
       "svg": "",
       "vrml": ""

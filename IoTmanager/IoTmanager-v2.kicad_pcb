@@ -22756,7 +22756,7 @@
 	(footprint "module-custom-for-esp8266:sod80-1n1448"
 		(layer "B.Cu")
 		(uuid "affde42e-debd-401c-b6ce-ee6f978775fb")
-		(at 100.431 76.6)
+		(at 99.6 75.9)
 		(property "Reference" "D4"
 			(at 0.038 0.5 180)
 			(unlocked yes)
