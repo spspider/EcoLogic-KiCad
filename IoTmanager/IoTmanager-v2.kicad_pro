@@ -52,7 +52,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|115145836|76900001|a60e2901-bd66-4cd2-baad-3105dbbd1a7d|d251c6c8-46d3-44db-aa2b-92218675196e"
+      ],
       "meta": {
         "version": 2
       },
@@ -416,7 +418,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -470,10 +472,10 @@
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.4,
+        "track_width": 1.2,
         "via_diameter": 2.0,
         "via_drill": 1.5,
-        "wire_width": 10
+        "wire_width": 6
       }
     ],
     "meta": {
