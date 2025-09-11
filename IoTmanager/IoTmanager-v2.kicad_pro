@@ -48,13 +48,17 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "courtyards_overlap|115145836|76900001|a60e2901-bd66-4cd2-baad-3105dbbd1a7d|d251c6c8-46d3-44db-aa2b-92218675196e"
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -173,7 +177,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -200,7 +206,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -445,7 +456,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -455,14 +466,14 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.25,
         "via_diameter": 1.0,
         "via_drill": 0.5,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 1.0,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -472,9 +483,9 @@
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.2,
-        "via_diameter": 2.0,
-        "via_drill": 1.5,
+        "track_width": 0.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
       }
     ],
@@ -543,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../../../Program Files/KiCad/8.0/",
-      "plot": "gerber/",
+      "plot": "gerber2/",
       "pos_files": "BOM-CPL/",
       "specctra_dsn": "topor2/IoTmanager_v2.dsn",
       "step": "IoTmanager.step",

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--***************************************-->
-<!--   File    : IoTmanager.fsproj         -->
-<!--   Format  : TopoR Project file        -->
-<!--   Version : 2                         -->
-<!--   Program : TopoR Lite 7.0.18699      -->
-<!--   Date    : Tuesday, October 29, 2024 -->
-<!--   Time    : 17:33                     -->
-<!--***************************************-->
+<!--****************************************-->
+<!--   File    : IoTmanager.fsproj          -->
+<!--   Format  : TopoR Project file         -->
+<!--   Version : 2                          -->
+<!--   Program : TopoR Lite 7.0.18699       -->
+<!--   Date    : Sunday, September 07, 2025 -->
+<!--   Time    : 16:19                      -->
+<!--****************************************-->
 
 <Project>
    <Version current="2"/>
    <GUID>{42019E8B-8855-4E28-84C4-5D30D17E5D35}</GUID>
    <Documents>
-      <Section name="PCB" isExpanded="false">
-         <File path=".\IoTmanager.fsx" isopened="1" dateChange="2024-10-29 15:11:41"/>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\IoTmanager.fsx" isopened="0" dateChange="2024-11-09 09:20:26"/>
       </Section>
-      <Section name="AutoRouting" isExpanded="false">
-         <File path=".\autoroute_241029152006\IoTmanager_2098-53s.fsb" isopened="0" dateChange="2024-10-29 15:22:35"/>
-         <File path=".\autoroute_241029152517\IoTmanager_2098-53s.fsb" isopened="0" dateChange="2024-10-29 15:38:50"/>
-         <File path=".\autoroute_241029154416\IoTmanager_2349-24s.fsb" isopened="0" dateChange="2024-10-29 16:02:41"/>
-         <File path=".\autoroute_241029154357\IoTmanager_2358-35s.fsb" isopened="0" dateChange="2024-10-29 15:43:59"/>
-         <File path=".\autoroute_241029151226\IoTmanager_2398-31s.fsb" isopened="0" dateChange="2024-10-29 15:14:40"/>
-         <File path=".\autoroute_241029151640\IoTmanager_2418-28s.fsb" isopened="0" dateChange="2024-10-29 15:18:32"/>
-         <File path=".\autoroute_241029151552\IoTmanager_2426-32s.fsb" isopened="0" dateChange="2024-10-29 15:15:55"/>
+      <Section name="AutoRouting" isExpanded="true">
+         <File path=".\autoroute_241029152006\IoTmanager_2098-53s.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_241029152517\IoTmanager_2098-53s.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_241029154416\IoTmanager_2349-24s.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_241029154357\IoTmanager_2358-35s.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_241029151226\IoTmanager_2398-31s.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_241029151640\IoTmanager_2418-28s.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_241029151552\IoTmanager_2426-32s.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
       </Section>
    </Documents>
 </Project>
