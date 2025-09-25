@@ -40,16 +40,36 @@ EcoLogic-KiCad/
 └── README.md                      # This file
 ```
 
-## 🔧 Components List
+## 🔧 Bill of Materials (BOM)
 
-| Component | Quantity | Package | JLCPCB Part # | Description |
-|-----------|----------|---------|---------------|-------------|
-| ESP8266 Module | 1 | SOT-223-3 | C6186 | Main microcontroller |
-| MMBT5401 (PNP) | 4 | SOT-23 | C8326 | PNP transistors |
-| MMBT5551 (NPN) | 4 | SOT-23 | C2145 | NPN transistors |
-| 100Ω Resistor | 5 | 0805 | C17408 | Current limiting |
-| 10kΩ Resistor | 7 | 0805 | C17414 | Pull-up resistors |
-| 1kΩ Resistor | 8 | 0805 | C25905 | Base resistors |
+| Reference | Component | Quantity | Description |
+|-----------|-----------|----------|-------------|
+| U2 | ESP-12F | 1 | ESP8266 WiFi Module |
+| U6 | AMS1117-3.3 | 1 | 3.3V Voltage Regulator |
+| U12 | AMS1117-5.0 | 1 | 5.0V Voltage Regulator |
+| U3 | DHT11 | 1 | Temperature & Humidity Sensor |
+| U7 | DS18B20 | 1 | Temperature Sensor |
+| U5 | PJ-320A | 1 | Audio Jack Connector |
+| Q1,Q3,Q5,Q7 | MMBT5401 | 4 | PNP Transistors |
+| Q2,Q4,Q6,Q8 | MMBT5551-npn | 4 | NPN Transistors |
+| K3,K5,K6,K7 | ZC32F-012-HS3 | 4 | 12V Relays |
+| D1 | LD271 | 1 | LED Indicator |
+| D2,D3,D4,D5 | 1N4148 | 4 | Switching Diodes |
+| C1,C2 | 1000µF | 2 | Polarized Capacitors |
+| C4 | 10µF | 1 | Polarized Capacitor |
+| C3 | 100nF | 1 | Ceramic Capacitor |
+| R1,R5,R8,R11,R16 | 100Ω | 5 | Current Limiting Resistors |
+| R3,R4,R12,R14-R19 | 1kΩ | 10 | Base Resistors |
+| R2,R6,R9,R10,R13 | 10kΩ | 8 | Pull-up Resistors |
+| R7 | 4.7kΩ | 1 | Pull-up Resistor |
+| 33R1 | 33Ω | 1 | Current Limiting Resistor |
+| J1 | Power Relay | 1 | Main Power Connector |
+| J2,J3 | 12-Pin Connector | 2 | I/O Connectors |
+| J4 | Flash Connector | 1 | Programming Interface |
+| J5 | Reset Button | 1 | System Reset |
+| SW1 | Push Button | 1 | 6mm Tactile Switch |
+| Jumper-d5,d6,d7 | Jumpers | 3 | Configuration Jumpers |
+
 
 ## 🏭 JLCPCB Manufacturing Guide
 
@@ -60,7 +80,7 @@ EcoLogic-KiCad/
 
 ### Step 2: Upload to JLCPCB
 1. Go to [JLCPCB.com](https://jlcpcb.com/)
-2. Click "Add gerber file" and upload `gerber.zip`
+2. Click "Add gerber file" and upload `gerber2.zip`
 3. Review PCB specifications:
    - **Layers**: 2
    - **Thickness**: 1.6mm
@@ -79,41 +99,7 @@ EcoLogic-KiCad/
 - Typical lead time: 2-5 days (PCB only)
 - SMT assembly adds 3-5 days
 
-## 🏠 Home Assistant Integration
 
-### ESP8266 Firmware Options
-- **ESPHome** (Recommended)
-- **Tasmota**
-- **Arduino IDE** with custom code
-
-### ESPHome Configuration Example
-```yaml
-esphome:
-  name: iot-controller
-  platform: ESP8266
-  board: esp01_1m
-
-wifi:
-  ssid: "YourWiFi"
-  password: "YourPassword"
-
-api:
-  encryption:
-    key: "your-api-key"
-
-ota:
-  password: "your-ota-password"
-
-switch:
-  - platform: gpio
-    pin: GPIO2
-    name: "Relay 1"
-    id: relay1
-  - platform: gpio
-    pin: GPIO4
-    name: "Relay 2"
-    id: relay2
-```
 
 ## ⚡ Power Requirements
 
@@ -124,18 +110,6 @@ switch:
 | Relay Switching | 10A @ 250V AC | Per relay channel |
 | Logic Level | 3.3V | ESP8266 native |
 
-## 🔌 Pin Configuration
-
-| GPIO | Function | Description |
-|------|----------|-------------|
-| GPIO0 | Boot Mode | Pull low for programming |
-| GPIO2 | Relay 1 | Output control |
-| GPIO4 | Relay 2 | Output control |
-| GPIO5 | Relay 3 | Output control |
-| GPIO12 | Relay 4 | Output control |
-| GPIO13 | Status LED | Board status indicator |
-| GPIO14 | Spare I/O | Additional control |
-| GPIO16 | Wake-up | Deep sleep wake |
 
 ## 🛠️ Assembly Tips
 
@@ -183,20 +157,17 @@ switch:
 
 This project is open-source hardware. Feel free to modify and distribute according to your needs.
 
-## 🆘 Support
+## 🆘 Support & Donations
 
-- **Issues**: Use GitHub Issues for bug reports
-- **Discussions**: Use GitHub Discussions for questions
-- **Email**: Contact for commercial support
+If this project helped you, consider supporting the development:
 
-## 🔗 Useful Links
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20Development-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/ecologic)
 
-- [KiCad Official Site](https://kicad.org/)
-- [JLCPCB Manufacturing](https://jlcpcb.com/)
-- [ESPHome Documentation](https://esphome.io/)
-- [Home Assistant](https://home-assistant.io/)
-- [ESP8266 Arduino Core](https://github.com/esp8266/Arduino)
-
+**Other ways to support:**
+- ⭐ Star this repository
+- 🐛 Report bugs and issues
+- 💡 Suggest improvements
+- 📖 Improve documentation
 ---
 
 **Made with ❤️ for the Home Automation Community**

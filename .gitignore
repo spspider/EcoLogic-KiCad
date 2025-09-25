@@ -1,3 +1,4 @@
 **/*.zip
 **/Project Backups
 **/*autoroute*
+!IoTmanager/gerber2/gerber2.zip

@@ -596,49 +596,49 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Описание",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -716,6 +716,24 @@
           "group_by": false,
           "label": "Availability",
           "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
           "show": false
         }
       ],
