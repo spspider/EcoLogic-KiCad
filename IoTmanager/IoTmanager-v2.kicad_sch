@@ -3503,7 +3503,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "54-00133:TENSILITY_54-00133"
+			(property "Footprint" "module-custom-for-esp8266:5.5PowerIn"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11012,7 +11012,7 @@
 		)
 		(uuid "d288fd02-f8b2-4af9-b230-0b0281f54b9b")
 	)
-	(label "d4"
+	(label "rx"
 		(at 219.71 278.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11291,7 +11291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08d4cacf-3646-4cdd-a593-16caaaf19e56")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 259.715 144.78 0)
 			(effects
 				(font
@@ -11382,7 +11382,7 @@
 		(instances
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -13181,7 +13181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "314750fd-41f1-4c14-b79b-b4ab417f0668")
-		(property "Reference" "Jumper-d3"
+		(property "Reference" "J7"
 			(at 279.4 53.34 90)
 			(effects
 				(font
@@ -13242,7 +13242,7 @@
 		(instances
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "Jumper-d3")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -19405,7 +19405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9330ef2-b8e8-4dc5-bddd-72358b3f9262")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 255.905 185.42 0)
 			(effects
 				(font
@@ -19496,7 +19496,7 @@
 		(instances
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -20896,7 +20896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e36f5472-a56b-4e8b-a84c-056c71f1776d")
-		(property "Reference" "Jumper-d2"
+		(property "Reference" "J4"
 			(at 218.44 55.88 90)
 			(effects
 				(font
@@ -20957,7 +20957,7 @@
 		(instances
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "Jumper-d2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -21106,7 +21106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8944275-19ac-42f6-94de-f65ea211a872")
-		(property "Reference" "Jumper-d1"
+		(property "Reference" "J3"
 			(at 173.99 57.15 90)
 			(effects
 				(font
@@ -21167,7 +21167,7 @@
 		(instances
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "Jumper-d1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
