@@ -26053,7 +26053,7 @@
 		(layer "Edge.Cuts")
 		(uuid "bf08fcec-7cae-443f-b0ce-ba1a1182ee35")
 	)
-	(gr_text "GND  GND 12V   5V  3.3V  D5   D6   D7   TX   D1   D2    D8"
+	(gr_text "GND  12V   5V  3.3V  D5   D6   D7   D4   TX   D1   D2   D8"
 		(at 49.5305 120.102 0)
 		(layer "B.SilkS" knockout)
 		(uuid "da140e17-7423-425a-be9e-c8978d36ef42")
@@ -26078,6 +26078,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND  12V   5V  3.3V  D5   D6   D7   D4   TX   D1   D2   D8"
+		(at 94 118.3 180)
+		(layer "F.SilkS" knockout)
+		(uuid "7eb5b28b-1e21-4792-9aaf-aa8c8ae78f06")
+		(effects
+			(font
+				(size 1.5 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
 	(gr_text "NC COM NO | NC COM NO | NC COM NO | NC COM NO"
 		(at 49.3305 57.502 0)
 		(layer "F.SilkS" knockout)
@@ -26086,19 +26099,6 @@
 			(font
 				(size 1 1.05)
 				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND  GND 12V   5V  3.3V  D5   D6   D7   TX   D1   D2    D8"
-		(at 49.5305 120.002 0)
-		(layer "F.SilkS" knockout)
-		(uuid "c1463ae0-ce04-47b6-9893-8129b2191046")
-		(effects
-			(font
-				(size 1.5 0.9)
-				(thickness 0.2)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
