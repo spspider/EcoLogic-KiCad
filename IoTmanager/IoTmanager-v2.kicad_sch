@@ -7858,7 +7858,7 @@
 		(uuid "a09fa5ac-545d-452b-a9bc-7d368d7d0db5")
 	)
 	(junction
-		(at 29.21 99.06)
+		(at 27.94 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a35738e4-9c89-4a94-9d78-c70fb39719b8")
@@ -7900,7 +7900,7 @@
 		(uuid "dee30263-1fe6-4e78-9b4b-ddfb56b94b39")
 	)
 	(junction
-		(at 36.83 88.9)
+		(at 35.56 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0b27868-8a21-41c1-aacd-140e67a2ccb9")
@@ -7964,16 +7964,6 @@
 			(type default)
 		)
 		(uuid "018249df-26a1-4498-82ac-e5d31a48d171")
-	)
-	(wire
-		(pts
-			(xy 21.59 85.09) (xy 21.59 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0214f232-b72f-4e4f-ae3e-ca94b412fa43")
 	)
 	(wire
 		(pts
@@ -8077,7 +8067,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 99.06) (xy 29.21 99.06)
+			(xy 35.56 106.68) (xy 27.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9357,6 +9347,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 85.09) (xy 20.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dde6fe-7176-4923-8dbe-5bc86c266255")
+	)
+	(wire
+		(pts
 			(xy 99.06 135.89) (xy 99.06 138.43)
 		)
 		(stroke
@@ -10147,7 +10147,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 86.36) (xy 36.83 88.9)
+			(xy 35.56 93.98) (xy 35.56 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10337,7 +10337,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 96.52) (xy 29.21 99.06)
+			(xy 27.94 104.14) (xy 27.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10417,7 +10417,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 96.52) (xy 36.83 99.06)
+			(xy 35.56 104.14) (xy 35.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10497,6 +10497,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 85.09) (xy 22.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92fe547-6559-4ad0-b9d5-06131c380470")
+	)
+	(wire
+		(pts
 			(xy 260.35 210.82) (xy 265.43 210.82)
 		)
 		(stroke
@@ -10527,7 +10537,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 99.06) (xy 29.21 101.6)
+			(xy 27.94 106.68) (xy 27.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -14446,7 +14456,7 @@
 			)
 		)
 		(property "Value" "C_Polarized_10uF"
-			(at 320.548 24.638 0)
+			(at 320.04 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14454,7 +14464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 320.04 40.64 0)
 			(effects
 				(font
@@ -15180,7 +15190,7 @@
 	)
 	(symbol
 		(lib_id "power:+5C")
-		(at 36.83 86.36 0)
+		(at 35.56 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15189,7 +15199,7 @@
 		(fields_autoplaced yes)
 		(uuid "495a7b52-114d-4a79-bf4c-96e907d5ba43")
 		(property "Reference" "#PWR07"
-			(at 36.83 90.17 0)
+			(at 35.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15198,7 +15208,7 @@
 			)
 		)
 		(property "Value" "+5C"
-			(at 36.83 81.28 0)
+			(at 35.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15206,7 +15216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 86.36 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15215,7 +15225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 86.36 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15224,7 +15234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5C\""
-			(at 36.83 86.36 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15411,7 +15421,7 @@
 	)
 	(symbol
 		(lib_id "power:+12C")
-		(at 21.59 85.09 0)
+		(at 22.86 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15420,7 +15430,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e6c228f-ba24-4751-950b-6e0dc583c407")
 		(property "Reference" "#PWR01"
-			(at 21.59 88.9 0)
+			(at 22.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15429,7 +15439,7 @@
 			)
 		)
 		(property "Value" "+12C"
-			(at 21.59 80.01 0)
+			(at 22.86 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15437,7 +15447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 85.09 0)
+			(at 22.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15446,7 +15456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 85.09 0)
+			(at 22.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,7 +15465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 21.59 85.09 0)
+			(at 22.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18227,8 +18237,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8257e43f-bbdd-451c-b455-a06b616e9e1e")
 		(property "Reference" "U5"
@@ -18247,7 +18257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "module-custom-for-esp8266:Mini360_step-down"
+		(property "Footprint" "module-custom-for-esp8266:mini360"
 			(at 107.95 34.29 0)
 			(effects
 				(font
@@ -19367,7 +19377,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SM6T24A")
-		(at 36.83 92.71 270)
+		(at 35.56 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19376,7 +19386,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6cdfda2-407b-4263-816f-50fbc8534958")
 		(property "Reference" "D1"
-			(at 39.37 91.4399 90)
+			(at 38.1 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19385,7 +19395,7 @@
 			)
 		)
 		(property "Value" "SM6T24A-5V"
-			(at 39.37 93.9799 90)
+			(at 38.1 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19394,7 +19404,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 31.75 92.71 0)
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19403,7 +19413,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
-			(at 36.83 91.44 0)
+			(at 35.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19412,7 +19422,7 @@
 			)
 		)
 		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 24Vrwm, DO-214AA"
-			(at 36.83 92.71 0)
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21771,7 +21781,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 29.21 101.6 0)
+		(at 27.94 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21780,7 +21790,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9367221-0a81-4ab3-91f9-f8e3945c44f0")
 		(property "Reference" "#PWR04"
-			(at 29.21 106.68 0)
+			(at 27.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21789,7 +21799,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 29.083 105.41 0)
+			(at 27.813 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21797,7 +21807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 102.87 0)
+			(at 27.94 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21806,7 +21816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 102.87 0)
+			(at 27.94 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21815,7 +21825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 29.21 101.6 0)
+			(at 27.94 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22484,7 +22494,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-5.0")
-		(at 29.21 88.9 0)
+		(at 27.94 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22493,7 +22503,7 @@
 		(fields_autoplaced yes)
 		(uuid "f79b573d-5970-4fc6-9c13-ec694a48268b")
 		(property "Reference" "U2"
-			(at 29.21 82.55 0)
+			(at 27.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22501,7 +22511,7 @@
 			)
 		)
 		(property "Value" "AMS1117-5.0"
-			(at 29.21 85.09 0)
+			(at 27.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22509,7 +22519,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 29.21 83.82 0)
+			(at 27.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22518,7 +22528,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 31.75 95.25 0)
+			(at 30.48 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22527,7 +22537,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
-			(at 29.21 88.9 0)
+			(at 27.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22536,7 +22546,7 @@
 			)
 		)
 		(property "LCSC Part" "C6187"
-			(at 29.21 88.9 0)
+			(at 27.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22545,7 +22555,7 @@
 			)
 		)
 		(property "Supplier" "LCSCRef"
-			(at 29.21 88.9 0)
+			(at 27.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22579,7 +22589,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fda69d9a-17e2-4375-af14-3f2024cfa76a")
 		(property "Reference" "#PWR03"
 			(at 26.67 81.28 0)
@@ -22591,7 +22600,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 26.543 80.01 0)
+			(at 27.813 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
