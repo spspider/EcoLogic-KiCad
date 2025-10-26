@@ -11518,6 +11518,27 @@
 		)
 		(uuid "47296138-63de-4ec8-a9f1-245fcba0dca4")
 	)
+	(label "power-net-12V"
+		(at 134.62 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4834ed18-0cc3-4191-893d-83bbe6b1d620")
+		(property "Netclass" "POWER"
+			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "d5"
 		(at 144.78 73.66 0)
 		(fields_autoplaced yes)
@@ -13452,7 +13473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "module-custom-for-esp8266:sod80-1n1448"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 249.428 249.428 0)
 			(effects
 				(font
@@ -13825,7 +13846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "module-custom-for-esp8266:sod80-1n1448"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 177.038 245.618 0)
 			(effects
 				(font
@@ -16569,7 +16590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "module-custom-for-esp8266:sod80-1n1448"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 32.258 237.998 0)
 			(effects
 				(font
@@ -21910,7 +21931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "module-custom-for-esp8266:sod80-1n1448"
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 109.728 241.808 0)
 			(effects
 				(font

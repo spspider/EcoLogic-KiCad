@@ -546,6 +546,10 @@
       {
         "netclass": "POWER",
         "pattern": "/conn2-6"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GNDPWR"
       }
     ]
   },
@@ -556,7 +560,7 @@
       "netlist": "../../../../../../Program Files/KiCad/8.0/",
       "plot": "gerber2/",
       "pos_files": "BOM-CPL/",
-      "specctra_dsn": "topor2/IoTmanager_v2.dsn",
+      "specctra_dsn": "freeroute-scheme/IoTmanager_v2.dsn",
       "step": "IoTmanager_v2.step",
       "svg": "",
       "vrml": ""
