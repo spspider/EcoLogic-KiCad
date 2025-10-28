@@ -493,7 +493,9 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+12C": "POWER"
+    },
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -548,7 +550,7 @@
         "pattern": "/conn2-6"
       },
       {
-        "netclass": "POWER",
+        "netclass": "Default",
         "pattern": "GNDPWR"
       }
     ]
@@ -560,7 +562,7 @@
       "netlist": "../../../../../../Program Files/KiCad/8.0/",
       "plot": "gerber2/",
       "pos_files": "BOM-CPL/",
-      "specctra_dsn": "freeroute-scheme/IoTmanager_v2.dsn",
+      "specctra_dsn": "freeroute-scheme/IoTmanager_v3.dsn",
       "step": "IoTmanager_v2.step",
       "svg": "",
       "vrml": ""
