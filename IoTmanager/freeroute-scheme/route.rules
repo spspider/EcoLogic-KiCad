@@ -1,5 +1,5 @@
 
-(rules PCB IoTmanager_v2.dsn
+(rules PCB IoTmanager_v3.dsn
   (snap_angle 
     fortyfive_degree
   )
@@ -26,74 +26,134 @@
     )
   )
   (rule
-    (width 250.0)
-    (clearance 250.0)
-    (clearance 125.0 (type smd_to_turn_gap))
-    (clearance 62.6 (type smd))
-    (clearance 250.0 (type "kicad_default"))
-    (clearance 500.0 (type POWER))
+    (width 200.0)
+    (clearance 150.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 37.6 (type smd))
+    (clearance 150.0 (type "kicad_default"))
+    (clearance 200.0 (type "DC_AND_GND"))
+    (clearance 250.0 (type RELAY))
   )
-  (padstack "Via[0-1]_1000:500_um"
+  (padstack "Via[0-1]_450:250_um"
     (shape
-      (circle F.Cu 1000.0 0.0 0.0)
+      (circle F.Cu 450.0 0.0 0.0)
     )
     (shape
-      (circle B.Cu 1000.0 0.0 0.0)
+      (circle B.Cu 450.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_550:300_um"
+    (shape
+      (circle F.Cu 550.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 550.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
     )
     (attach off)
   )
   (via 
-    "Via[0-1]_1000:500_um" "Via[0-1]_1000:500_um" default
+    "Via[0-1]_450:250_um" "Via[0-1]_450:250_um" default
   )
   (via 
-    "Via[0-1]_1000:500_um-kicad_default" "Via[0-1]_1000:500_um" "kicad_default"
+    "Via[0-1]_550:300_um" "Via[0-1]_550:300_um" default
   )
   (via 
-    "Via[0-1]_1000:500_um-POWER" "Via[0-1]_1000:500_um" POWER
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_450:250_um-kicad_default" "Via[0-1]_450:250_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_550:300_um-kicad_default" "Via[0-1]_550:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_450:250_um-DC_AND_GND" "Via[0-1]_450:250_um" "DC_AND_GND"
+  )
+  (via 
+    "Via[0-1]_550:300_um-DC_AND_GND" "Via[0-1]_550:300_um" "DC_AND_GND"
+  )
+  (via 
+    "Via[0-1]_800:400_um-DC_AND_GND" "Via[0-1]_800:400_um" "DC_AND_GND"
+  )
+  (via 
+    "Via[0-1]_450:250_um-RELAY" "Via[0-1]_450:250_um" RELAY
+  )
+  (via 
+    "Via[0-1]_550:300_um-RELAY" "Via[0-1]_550:300_um" RELAY
+  )
+  (via 
+    "Via[0-1]_800:400_um-RELAY" "Via[0-1]_800:400_um" RELAY
   )
   (via_rule
-    default "Via[0-1]_1000:500_um"
+    default "Via[0-1]_450:250_um"
   )
   (via_rule
-    "kicad_default" "Via[0-1]_1000:500_um-kicad_default"
+    "kicad_default" "Via[0-1]_450:250_um-kicad_default"
   )
   (via_rule
-    POWER "Via[0-1]_1000:500_um-POWER"
+    "DC_AND_GND" "Via[0-1]_550:300_um-DC_AND_GND"
+  )
+  (via_rule
+    RELAY "Via[0-1]_800:400_um-RELAY"
   )
   (class default
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 250.0)
+      (width 200.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
     )
   )
   (class "kicad_default"
-    "Net-(U8-Tip)" /a0 GNDPWR /tx /rx "Net-(IRLR2-G)" "/mosf1-out-d5" "/mosf2-out-d6"
-    "Net-(IRLR1-G)" "/mosf3-out-d7" "Net-(IRLR3-G)" /d2 +5C +12C /d8 +3.3V
-    /d4 /d0 /d3 /d5 /d7 /d1 /d6 "Net-(D6-A)"
-    "Net-(J2-Pin_1)" "Net-(J6-Pin_9)" "Net-(J6-Pin_12)" "Net-(D2-A)" "Net-(D3-A)" "Net-(Q1-B)" "Net-(U7-EN)" "Net-(U3-tsop1-OUT)"
-    "unconnected-(U1-NC-Pad3)" "Net-(Q1-C)" "Net-(Q2-B)" "Net-(Q3-C)" "unconnected-(U8-Ring1-Pad3)" "Net-(Q3-B)" "Net-(Q4-B)" "Net-(Q5-B)"
-    "Net-(Q5-C)" "unconnected-(U8-Ring2-Pad4)" /pwrRel "Net-(Q6-B)" "Net-(Q7-C)" "Net-(Q7-B)" "Net-(Q8-B)" "Net-(J6-Pin_11)"
-    "Net-(J6-Pin_10)" "Net-(F1-Pad1)" "Net-(D5-A)" "Net-(D8-A)"
+    "Net-(U8-Tip)" /a0 /tx /rx "/mosf1-out-d5" "Net-(D10-K)" "Net-(D11-K)" "/d4-1k"
+    /d2 /d8 /d4 /d0 /d3 /d5 /d7 /d1
+    /d6 "Net-(D6-A)" "/tx-out" "/rx-out" "Net-(J6-Pin_12)" "Net-(D2-A)" "Net-(D3-A)" "Net-(U7-EN)"
+    "Net-(U3-tsop1-OUT)" "unconnected-(U1-NC-Pad3)" "Net-(Q1-C)" "Net-(Q2-B)" "Net-(Q3-C)" "unconnected-(U8-Ring1-Pad3)" "Net-(Q3-B)" "Net-(Q4-B)"
+    "Net-(Q5-B)" "Net-(Q5-C)" "unconnected-(U8-Ring2-Pad4)" /pwrRel "Net-(Q6-B)" "Net-(Q7-C)" "Net-(Q7-B)" "Net-(Q8-B)"
+    "Net-(J6-Pin_11)" "Net-(J6-Pin_10)" "Net-(F1-Pad1)" "Net-(D5-A)" "Net-(D8-A)" "Net-(D12-K)" "/mosf2-out-d7" "/mosf1-out-d6"
+    "Net-(SW2-reset1-D)" "Net-(Q1-B)" "Net-(Q10B-G2)" "/mosf2-out-d8"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
-      (width 250.0)
+      (width 200.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
     )
   )
-  (class POWER
+  (class "DC_AND_GND"
+    GNDPWR +5C +12C +3.3V
+    (clearance_class "DC_AND_GND")
+    (via_rule "DC_AND_GND")
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class RELAY
     "/conn1-8" "/conn1-10" "/conn1-9" "/conn2-2" "/conn2-5" "/conn2-3" "/conn2-8" "/conn2-9"
     "/conn2-7" "/conn2-6" "/conn2-4" "/conn2-1"
-    (clearance_class POWER)
-    (via_rule POWER)
+    (clearance_class RELAY)
+    (via_rule RELAY)
     (rule
-      (width 500.0)
+      (width 600.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
