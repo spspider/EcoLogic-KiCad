@@ -512,7 +512,11 @@
     "net_colors": null,
     "netclass_assignments": {
       "+12C": "DC_AND_GND",
-      "/conn2-4": "RELAY"
+      "/conn2-4": "RELAY",
+      "/mosf1-out-d5": "DC_AND_GND",
+      "/mosf1-out-d6": "DC_AND_GND",
+      "/mosf2-out-d7": "DC_AND_GND",
+      "/mosf2-out-d8": "DC_AND_GND"
     },
     "netclass_patterns": [
       {

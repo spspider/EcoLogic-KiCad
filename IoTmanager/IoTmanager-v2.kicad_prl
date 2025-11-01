@@ -22,9 +22,9 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": false,
-      "tracks": true,
-      "vias": true,
+      "text": true,
+      "tracks": false,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "00110c7_80000001",
+    "visible_layers": "0011080_00000000",
     "zone_display_mode": 0
   },
   "git": {
