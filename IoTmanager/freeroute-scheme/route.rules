@@ -6,7 +6,7 @@
   (autoroute_settings
     (fanout off)
     (autoroute on)
-    (postroute off)
+    (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
@@ -27,12 +27,12 @@
   )
   (rule
     (width 200.0)
-    (clearance 150.0)
+    (clearance 200.0)
     (clearance 100.0 (type smd_to_turn_gap))
-    (clearance 37.6 (type smd))
-    (clearance 150.0 (type "kicad_default"))
-    (clearance 200.0 (type "DC_AND_GND"))
-    (clearance 250.0 (type RELAY))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+    (clearance 300.0 (type "DC_AND_GND"))
+    (clearance 300.0 (type RELAY))
   )
   (padstack "Via[0-1]_450:250_um"
     (shape
@@ -120,13 +120,13 @@
     )
   )
   (class "kicad_default"
-    "Net-(U8-Tip)" /a0 /tx /rx "/mosf1-out-d5" "Net-(D10-K)" "Net-(D11-K)" "/d4-1k"
-    /d2 /d8 /d4 /d0 /d3 /d5 /d7 /d1
-    /d6 "Net-(D6-A)" "/tx-out" "/rx-out" "Net-(J6-Pin_12)" "Net-(D2-A)" "Net-(D3-A)" "Net-(U7-EN)"
-    "Net-(U3-tsop1-OUT)" "unconnected-(U1-NC-Pad3)" "Net-(Q1-C)" "Net-(Q2-B)" "Net-(Q3-C)" "unconnected-(U8-Ring1-Pad3)" "Net-(Q3-B)" "Net-(Q4-B)"
-    "Net-(Q5-B)" "Net-(Q5-C)" "unconnected-(U8-Ring2-Pad4)" /pwrRel "Net-(Q6-B)" "Net-(Q7-C)" "Net-(Q7-B)" "Net-(Q8-B)"
-    "Net-(J6-Pin_11)" "Net-(J6-Pin_10)" "Net-(F1-Pad1)" "Net-(D5-A)" "Net-(D8-A)" "Net-(D12-K)" "/mosf2-out-d7" "/mosf1-out-d6"
-    "Net-(SW2-reset1-D)" "Net-(Q1-B)" "Net-(Q10B-G2)" "/mosf2-out-d8"
+    "Net-(U8-Tip)" /a0 /tx /rx "Net-(D10-K)" "Net-(D11-K)" "/d4-1k" /d2
+    /d8 /d4 /d0 /d3 /d5 /d7 /d1 /d6
+    "Net-(D6-A)" "/tx-out" "/rx-out" "Net-(J6-Pin_12)" "Net-(D2-A)" "Net-(D3-A)" "Net-(U7-EN)" "Net-(U3-tsop1-OUT)"
+    "unconnected-(U1-NC-Pad3)" "Net-(Q1-C)" "Net-(Q2-B)" "Net-(Q3-C)" "unconnected-(U8-Ring1-Pad3)" "Net-(Q3-B)" "Net-(Q4-B)" "Net-(Q5-B)"
+    "Net-(Q5-C)" "unconnected-(U8-Ring2-Pad4)" /pwrRel "Net-(Q6-B)" "Net-(Q7-C)" "Net-(Q7-B)" "Net-(Q8-B)" "Net-(J6-Pin_11)"
+    "Net-(J6-Pin_10)" "Net-(F1-Pad1)" "Net-(D5-A)" "Net-(D8-A)" "Net-(D12-K)" "Net-(SW2-reset1-D)" "Net-(Q1-B)" "Net-(Q10B-G2)"
+    "Net-(U1-VDD)" "Net-(SW2-flash1-D)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
@@ -137,7 +137,7 @@
     )
   )
   (class "DC_AND_GND"
-    GNDPWR +5C +12C +3.3V
+    "/mosf1-out-d5" +5C +12C +3.3V "/mosf2-out-d7" "/mosf1-out-d6" "/mosf2-out-d8" GNDPWR
     (clearance_class "DC_AND_GND")
     (via_rule "DC_AND_GND")
     (rule
@@ -148,8 +148,8 @@
     )
   )
   (class RELAY
-    "/conn1-8" "/conn1-10" "/conn1-9" "/conn2-2" "/conn2-5" "/conn2-3" "/conn2-8" "/conn2-9"
-    "/conn2-7" "/conn2-6" "/conn2-4" "/conn2-1"
+    "/d3-nc-12" "/d3-com-11" "/d0-no-7" "/d0-com-8" "/d3-no-10" "/tx-com-2" "/tx-nc-3" "/rx-no-4"
+    "/d0-nc-9" "/rx-nc-6" "/tx-no-1" "/rx-com-5"
     (clearance_class RELAY)
     (via_rule RELAY)
     (rule
