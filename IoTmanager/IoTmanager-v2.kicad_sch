@@ -7759,12 +7759,6 @@
 		(uuid "24efabfb-3e63-45d0-b9bf-e12c93037cef")
 	)
 	(junction
-		(at 392.43 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "284e96ef-1985-487c-87ab-eef539f4ad1d")
-	)
-	(junction
 		(at 405.13 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7867,22 +7861,10 @@
 		(uuid "a77c8288-4f77-4294-a3ef-f7111d28cd26")
 	)
 	(junction
-		(at 391.16 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aec2b41f-9b09-4c58-97ba-6124d18659a7")
-	)
-	(junction
 		(at 123.19 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b47a4962-93ad-419b-a86c-cbafc4a86bff")
-	)
-	(junction
-		(at 438.15 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b92c5f6f-305a-4de6-b050-81d73a1d3a58")
 	)
 	(junction
 		(at 91.44 157.48)
@@ -8530,16 +8512,6 @@
 	)
 	(wire
 		(pts
-			(xy 438.15 107.95) (xy 438.15 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28df33f2-e3ef-46cf-b8b1-7239c915e341")
-	)
-	(wire
-		(pts
 			(xy 193.04 252.73) (xy 193.04 248.92)
 		)
 		(stroke
@@ -8650,6 +8622,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 156.21) (xy 260.35 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a17542-fed7-484e-8a05-89beca9f5ec3")
+	)
+	(wire
+		(pts
 			(xy 149.86 170.18) (xy 153.67 170.18)
 		)
 		(stroke
@@ -8717,16 +8699,6 @@
 			(type default)
 		)
 		(uuid "3e1ab24a-f286-4d4b-9aaf-7b2fe52ec8a7")
-	)
-	(wire
-		(pts
-			(xy 438.15 107.95) (xy 440.69 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f8bd382-92aa-404d-a8d9-6892620c7404")
 	)
 	(wire
 		(pts
@@ -8820,7 +8792,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 107.95) (xy 438.15 107.95)
+			(xy 436.88 107.95) (xy 440.69 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8867,6 +8839,16 @@
 			(type default)
 		)
 		(uuid "4bf3a15b-2fb5-4e85-8273-70cccd85a3a8")
+	)
+	(wire
+		(pts
+			(xy 260.35 167.64) (xy 260.35 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c34402f-df11-4927-bed3-175f36989568")
 	)
 	(wire
 		(pts
@@ -9010,16 +8992,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 153.67) (xy 392.43 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54079f26-4bd9-419e-b028-ca1d56f5257a")
-	)
-	(wire
-		(pts
 			(xy 396.24 143.51) (xy 396.24 153.67)
 		)
 		(stroke
@@ -9120,16 +9092,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 118.11) (xy 391.16 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b61c1b7-9b04-4b77-a771-ebf0b1e0a0b9")
-	)
-	(wire
-		(pts
 			(xy 115.57 245.11) (xy 125.73 245.11)
 		)
 		(stroke
@@ -9217,6 +9179,16 @@
 			(type default)
 		)
 		(uuid "63151c62-128d-4fab-8449-b58f0b295301")
+	)
+	(wire
+		(pts
+			(xy 264.16 167.64) (xy 264.16 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c97d7c-a1e5-4d2b-a44d-7bb2a85219d6")
 	)
 	(wire
 		(pts
@@ -9407,16 +9379,6 @@
 			(type default)
 		)
 		(uuid "723a278e-aac2-434d-9637-1a1252be371a")
-	)
-	(wire
-		(pts
-			(xy 392.43 165.1) (xy 392.43 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e19743-cd95-4a9c-9b00-cf722611c0a4")
 	)
 	(wire
 		(pts
@@ -9910,6 +9872,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 156.21) (xy 267.97 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a758addc-5bf2-4299-92b8-b123fe4be292")
+	)
+	(wire
+		(pts
 			(xy 102.87 148.59) (xy 102.87 157.48)
 		)
 		(stroke
@@ -9940,16 +9912,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 107.95) (xy 391.16 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9a7ba8d-31ee-48fb-9fc3-187fe11ff98f")
-	)
-	(wire
-		(pts
 			(xy 110.49 29.21) (xy 132.08 29.21)
 		)
 		(stroke
@@ -9967,6 +9929,26 @@
 			(type default)
 		)
 		(uuid "ab3dbc86-fc50-41bf-9a8b-fa63c5bd182c")
+	)
+	(wire
+		(pts
+			(xy 271.78 167.64) (xy 271.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6cd381-c3f9-4fca-bb31-4aa656cba5ea")
+	)
+	(wire
+		(pts
+			(xy 275.59 167.64) (xy 275.59 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac921a28-51bd-4156-ac4c-f9dbf8891862")
 	)
 	(wire
 		(pts
@@ -10000,6 +9982,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 156.21) (xy 264.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb6bfd6-ea60-4f35-a60e-a68c768fe426")
+	)
+	(wire
+		(pts
 			(xy 339.09 132.08) (xy 339.09 130.81)
 		)
 		(stroke
@@ -10030,7 +10022,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 107.95) (xy 396.24 107.95)
+			(xy 387.35 107.95) (xy 396.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10440,23 +10432,13 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 153.67) (xy 396.24 153.67)
+			(xy 391.16 153.67) (xy 396.24 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d66bb38a-b3eb-486d-96bc-41c3ee8fff16")
-	)
-	(wire
-		(pts
-			(xy 391.16 153.67) (xy 392.43 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d66dd842-611e-46cc-a64e-faa08f0bfe88")
 	)
 	(wire
 		(pts
@@ -10537,6 +10519,16 @@
 			(type default)
 		)
 		(uuid "def74cb0-9c83-4e19-958b-fea7c6044dc6")
+	)
+	(wire
+		(pts
+			(xy 271.78 156.21) (xy 271.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df69b98e-f099-436b-9773-bf18f72b5656")
 	)
 	(wire
 		(pts
@@ -10637,16 +10629,6 @@
 			(type default)
 		)
 		(uuid "e5e8e955-5f9a-473e-9d87-9a2bffa8488b")
-	)
-	(wire
-		(pts
-			(xy 387.35 107.95) (xy 391.16 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6472990-d695-4169-a1dd-8e2714d2d044")
 	)
 	(wire
 		(pts
@@ -10820,16 +10802,6 @@
 	)
 	(wire
 		(pts
-			(xy 438.15 118.11) (xy 438.15 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30b8b48-cada-49d4-9197-705508a1fc42")
-	)
-	(wire
-		(pts
 			(xy 193.04 237.49) (xy 193.04 241.3)
 		)
 		(stroke
@@ -10877,6 +10849,16 @@
 			(type default)
 		)
 		(uuid "f833039d-d787-4538-b061-0a8db843cb71")
+	)
+	(wire
+		(pts
+			(xy 267.97 167.64) (xy 267.97 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f938a862-0eea-4d52-9d9d-046ab8ab933d")
 	)
 	(wire
 		(pts
@@ -10950,6 +10932,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 156.21) (xy 275.59 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff39d805-bd9d-444f-9be7-b569ccfbf08d")
+	)
+	(wire
+		(pts
 			(xy 345.44 279.4) (xy 345.44 274.32)
 		)
 		(stroke
@@ -10986,6 +10978,16 @@
 			(justify left top)
 		)
 		(uuid "21ea3925-d68d-431a-9c6f-6a0b7f813263")
+	)
+	(text "d8 already pulled to ground"
+		(exclude_from_sim no)
+		(at 444.5 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb1ea6ba-07c9-434f-b48c-fe2cce47b38b")
 	)
 	(label "d2"
 		(at 153.67 167.64 0)
@@ -11063,6 +11065,17 @@
 			(justify left bottom)
 		)
 		(uuid "089732f0-fd87-4d66-addf-c17cd825d30e")
+	)
+	(label "d5"
+		(at 267.97 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dfed829-7d9f-4eb7-83e7-2f85e97017e6")
 	)
 	(label "mosf2-out-d7"
 		(at 335.28 262.89 90)
@@ -11764,6 +11777,17 @@
 			)
 		)
 	)
+	(label "tx"
+		(at 260.35 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8de925d1-f930-4979-b5e8-30d372375160")
+	)
 	(label "d8"
 		(at 421.64 153.67 0)
 		(fields_autoplaced yes)
@@ -11829,6 +11853,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "d7"
+		(at 271.78 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90b13d4e-5f49-40d4-8144-c6d1b80a62d7")
 	)
 	(label "d3"
 		(at 140.97 157.48 0)
@@ -12181,6 +12216,17 @@
 		)
 		(uuid "e7d52c0c-acf3-46fe-b3c7-738f5270ce9e")
 	)
+	(label "rx"
+		(at 264.16 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb83305f-f89c-487c-beaa-f950a81893e4")
+	)
 	(label "d6"
 		(at 421.64 107.95 0)
 		(fields_autoplaced yes)
@@ -12213,6 +12259,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "d6"
+		(at 275.59 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f13c44ef-f852-446c-a75a-be2663a36f7b")
 	)
 	(label "label_in_12V"
 		(at 139.7 31.75 0)
@@ -12432,15 +12489,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 391.16 123.19 0)
+		(at 260.35 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00fb713c-9a24-425b-8265-8c6f27fda4dd")
-		(property "Reference" "#PWR016"
-			(at 391.16 128.27 0)
+		(uuid "019f5d0f-ade6-4e80-b12b-afc68a09ee68")
+		(property "Reference" "#PWR054"
+			(at 260.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,7 +12506,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 391.922 127 0)
+			(at 261.112 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +12514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 124.46 0)
+			(at 260.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12466,7 +12523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 124.46 0)
+			(at 260.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12475,7 +12532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 391.16 123.19 0)
+			(at 260.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12484,12 +12541,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a7ebcc2-80aa-426b-9d43-2dc5a4c73a1e")
+			(uuid "cbadeb9c-072c-4edb-9402-3c69ffa1c84b")
 		)
 		(instances
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR016")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12734,6 +12791,71 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 264.16 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "068399e4-9a21-46b8-b447-d8e8558fadb4")
+		(property "Reference" "#PWR065"
+			(at 264.16 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 264.922 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 264.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb9a7e61-7dff-4842-a3bd-3b217d4dcc59")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -14134,76 +14256,6 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZV55B3V3")
-		(at 438.15 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e9e216c-a9b2-406e-b723-ca978cf968b3")
-		(property "Reference" "D11"
-			(at 440.69 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B3V3"
-			(at 440.69 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 433.705 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 438.15 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 438.15 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "914fe252-9050-4515-b9e7-80f46dd980d5")
-		)
-		(pin "2"
-			(uuid "ed75fd38-5a1c-4166-a9c5-d34c621c4653")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -15729,6 +15781,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BZV55B3V3")
+		(at 264.16 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ae552e3-6204-428a-a113-7ea4bedbaf26")
+		(property "Reference" "D14"
+			(at 259.842 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55B3V3"
+			(at 262.89 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 259.715 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 264.16 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 264.16 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ba4a34c-eef4-470e-a805-06edf6129268")
+		)
+		(pin "2"
+			(uuid "2077299a-58e5-42d2-8abd-4634fc0cc6a3")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 83.82 82.55 0)
 		(unit 1)
@@ -16468,6 +16589,75 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZV55B3V3")
+		(at 260.35 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "488ad9b2-c046-4518-b6aa-669064409f48")
+		(property "Reference" "D13"
+			(at 248.412 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55B3V3"
+			(at 257.048 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 255.905 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 260.35 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 260.35 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40b48dee-a60c-4dea-af62-345d61238d1d")
+		)
+		(pin "2"
+			(uuid "d6344c02-3b70-4ef3-bf31-d990770a9a45")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -17765,6 +17955,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 267.97 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "614fb524-a126-4f25-ba20-150858ebd546")
+		(property "Reference" "#PWR016"
+			(at 267.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 268.732 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 267.97 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef5e8565-d102-4083-b501-9c9b1cd71c01")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "models:R-100")
 		(at 433.07 153.67 90)
 		(unit 1)
@@ -17782,7 +18037,7 @@
 				)
 			)
 		)
-		(property "Value" "R-100"
+		(property "Value" "R-100-opt"
 			(at 433.07 149.86 90)
 			(effects
 				(font
@@ -18855,6 +19110,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BZV55B3V3")
+		(at 271.78 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "739226e2-87c1-4f11-8129-5b7728ed65bb")
+		(property "Reference" "D10"
+			(at 270.764 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55B3V3"
+			(at 271.018 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 267.335 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 271.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 271.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dd9845e-2bae-4d93-b542-9cc85d048470")
+		)
+		(pin "2"
+			(uuid "2c03fe74-fa4a-43ca-b4aa-952f97b8deaa")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "models:PJ-320A")
 		(at 344.17 45.72 0)
 		(unit 1)
@@ -19473,34 +19797,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55B3V3")
-		(at 391.16 114.3 270)
+		(lib_id "power:GNDPWR")
+		(at 275.59 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7fe42727-e9c6-480d-bbd3-e74853cbed82")
-		(property "Reference" "D12"
-			(at 375.92 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B3V3"
-			(at 374.904 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 386.715 114.3 0)
+		(uuid "8028e041-0f1b-47be-b844-b4c8d9093c5b")
+		(property "Reference" "#PWR029"
+			(at 275.59 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19508,8 +19814,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 391.16 114.3 0)
+		(property "Value" "GNDPWR"
+			(at 276.606 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19517,8 +19831,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 391.16 114.3 0)
+		(property "Datasheet" ""
+			(at 275.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 275.59 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19527,15 +19850,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd649f11-83f6-4b4f-8e4a-a47543335477")
-		)
-		(pin "2"
-			(uuid "3d700e55-fe89-40b4-9950-ce07ab04897e")
+			(uuid "8c7ded78-6122-4d50-8983-99f94416cdba")
 		)
 		(instances
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "D12")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -20477,75 +20797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55B3V3")
-		(at 392.43 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92d80b73-cd49-4ed4-88a4-b9d20f76d61f")
-		(property "Reference" "D10"
-			(at 380.492 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B3V3"
-			(at 374.904 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 387.985 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 392.43 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 392.43 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0af433a-1919-487f-98e4-d670ee9cd98f")
-		)
-		(pin "2"
-			(uuid "a4b0dd20-b3aa-4b20-84c1-716277c139a1")
-		)
-		(instances
-			(project ""
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SM6T24A")
 		(at 139.7 36.83 270)
 		(unit 1)
@@ -20679,71 +20930,6 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "SW2-flash1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 392.43 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "945d0b78-1683-4934-8aad-37286f2fcd39")
-		(property "Reference" "#PWR018"
-			(at 392.43 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 393.192 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 392.43 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 392.43 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95533118-849d-4185-a695-d1df7b7fedb2")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -20977,15 +21163,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 438.15 124.46 0)
+		(at 271.78 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a3e2070-43a5-4728-9569-cb26205eda85")
-		(property "Reference" "#PWR029"
-			(at 438.15 129.54 0)
+		(uuid "993f5f65-00c8-41de-809d-9ab1db8b3636")
+		(property "Reference" "#PWR018"
+			(at 271.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20994,7 +21180,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 438.912 128.27 0)
+			(at 272.034 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21002,7 +21188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 438.15 125.73 0)
+			(at 271.78 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21011,7 +21197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 438.15 125.73 0)
+			(at 271.78 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21020,7 +21206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 438.15 124.46 0)
+			(at 271.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21029,12 +21215,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "56365cae-4951-4b64-a45c-fe7969b12d24")
+			(uuid "975b2d1f-7da2-487a-a1bd-7b48abd5e59e")
 		)
 		(instances
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR029")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -21595,6 +21781,75 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZV55B3V3")
+		(at 275.59 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abc281b1-0cc4-48ef-8f35-93879683cb4b")
+		(property "Reference" "D11"
+			(at 277.876 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55B3V3"
+			(at 278.13 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 271.145 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 275.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 275.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9918f23c-9280-4946-a10b-a3ccda45057f")
+		)
+		(pin "2"
+			(uuid "571a75c4-1ffb-40b6-97d8-7f6cad5192b9")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -24571,6 +24826,75 @@
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZV55B3V3")
+		(at 267.97 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb4846d4-2bb4-47b5-a50f-5ae659ce8fa4")
+		(property "Reference" "D12"
+			(at 266.7 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55B3V3"
+			(at 265.43 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 263.525 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7689c40c-4209-417e-9aa9-cc64b88a3349")
+		)
+		(pin "2"
+			(uuid "139e6e2e-5bf5-40f8-83e9-334513a0b6d8")
+		)
+		(instances
+			(project "IoTmanager-v2"
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "D12")
 					(unit 1)
 				)
 			)
