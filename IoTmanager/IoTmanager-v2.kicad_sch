@@ -8457,16 +8457,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 160.02) (xy 59.69 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b1d8e7-b858-452a-9847-322993291313")
-	)
-	(wire
-		(pts
 			(xy 229.87 128.27) (xy 232.41 128.27)
 		)
 		(stroke
@@ -8777,17 +8767,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 157.48) (xy 59.69 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51c4ae06-38d0-4acb-913a-fd2c570f1eb9")
-	)
-	(wire
-		(pts
-			(xy 43.18 157.48) (xy 48.26 157.48)
+			(xy 43.18 157.48) (xy 59.69 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9387,7 +9367,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 160.02) (xy 48.26 160.02)
+			(xy 43.18 160.02) (xy 59.69 160.02)
 		)
 		(stroke
 			(width 0)
@@ -11315,17 +11295,6 @@
 		)
 		(uuid "6502bf98-1227-4349-9a86-8eec7565f0f1")
 	)
-	(label "rx-in"
-		(at 45.72 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "666a8a05-1f94-46b3-ba16-7a18ef7b5379")
-	)
 	(label "d5"
 		(at 140.97 128.27 0)
 		(fields_autoplaced yes)
@@ -11369,17 +11338,6 @@
 			(justify left bottom)
 		)
 		(uuid "73b48249-d868-417d-bdd4-12bb71e52a85")
-	)
-	(label "tx-out"
-		(at 45.72 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77684119-1d96-4e8b-8124-d2878c65d9ad")
 	)
 	(label "x1"
 		(at 320.04 95.25 0)
@@ -21174,99 +21132,6 @@
 		)
 	)
 	(symbol
-		(lib_id "models:R-1k")
-		(at 52.07 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae912620-efee-4dbd-bc46-fdb721c9254a")
-		(property "Reference" "R31"
-			(at 56.388 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R-1k"
-			(at 52.07 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 52.07 158.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 52.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25905"
-			(at 52.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSCRef"
-			(at 52.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part" "C25905"
-			(at 52.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "deed89c3-b47d-4b54-a787-39353fab85f3")
-		)
-		(pin "2"
-			(uuid "e1445b96-cc05-42b5-9e33-94194c6141ca")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "models:R-10k")
 		(at 400.05 118.11 270)
 		(unit 1)
@@ -24482,99 +24347,6 @@
 			(project ""
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "models:R-1k")
-		(at 52.07 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcb1cc40-3d60-489d-9f79-c1f11f67e7cc")
-		(property "Reference" "R30"
-			(at 57.15 156.718 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R-1k"
-			(at 45.466 161.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 52.07 155.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 52.07 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25905"
-			(at 52.07 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSCRef"
-			(at 52.07 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part" "C25905"
-			(at 52.07 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17808b17-3586-4d0d-a6ca-854f4d3677c0")
-		)
-		(pin "2"
-			(uuid "084f0f19-5ca4-4f37-96c8-9c8b07416c8a")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "R30")
 					(unit 1)
 				)
 			)
