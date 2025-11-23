@@ -22244,7 +22244,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k-opt"
+		(property "Value" "R-10k"
 			(at 0.0708 -0.6604 90)
 			(layer "B.Fab")
 			(uuid "5764c992-4467-4708-adb0-966f63cbb8b2")
@@ -22796,7 +22796,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-100"
+		(property "Value" "R-4k7"
 			(at 0 -0.4572 0)
 			(layer "B.Fab")
 			(uuid "a129a1c1-fe10-44cc-841b-9f2e257dec69")
@@ -23057,7 +23057,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at 0.0508 -0.0508 90)
 			(layer "B.Fab")
 			(uuid "0827288a-56dc-4621-b996-c4cfc6c08a76")
@@ -23758,7 +23758,7 @@
 			)
 		)
 		(property "Value" "R-1k"
-			(at 0.254 0.6604 90)
+			(at 0.254 -1.2192 90)
 			(layer "B.Fab")
 			(uuid "1ee847be-66c8-45ac-8444-b1a10d7141c0")
 			(effects
@@ -25729,7 +25729,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at -0.1016 -0.8128 0)
 			(layer "B.Fab")
 			(uuid "36780ed8-40fa-40af-bdd0-bda1c8ab0b7c")
@@ -25990,7 +25990,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-1k-opt"
+		(property "Value" "R-1k"
 			(at -0.0508 0.6943 0)
 			(layer "B.Fab")
 			(uuid "c6533004-6d39-45be-ad5c-b9d6e95e1834")
@@ -26552,7 +26552,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at -0.1016 0.4572 90)
 			(layer "B.Fab")
 			(uuid "04edeffc-4422-4bfa-9571-767d139140ab")
@@ -30170,7 +30170,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-1k"
+		(property "Value" "R-100"
 			(at 0 -0.1016 0)
 			(layer "B.Fab")
 			(uuid "56e73180-2400-4237-adff-cbfeaa132382")
@@ -30732,7 +30732,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at 0 -0.6604 90)
 			(layer "B.Fab")
 			(uuid "eae923ce-f0ae-42fb-b503-ed8939c89af5")
@@ -30993,7 +30993,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-1k"
+		(property "Value" "R-100"
 			(at -0.0508 -0.1524 0)
 			(layer "B.Fab")
 			(uuid "91126dee-f8bf-4eec-9f21-60448d86a133")
@@ -31515,7 +31515,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-1k-opt"
+		(property "Value" "R-1k"
 			(at -0.1016 -1.27 0)
 			(layer "B.Fab")
 			(uuid "70d83060-5207-46f3-b9ea-7ecd0f0b10ea")
@@ -32941,7 +32941,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-1k-opt"
+		(property "Value" "R-1k"
 			(at 0 -2.9633 0)
 			(layer "B.Fab")
 			(uuid "0f79f824-5b0a-4564-84ba-e4af25e77e74")
@@ -33517,8 +33517,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-100"
-			(at -0.1016 -0.762 0)
+		(property "Value" "R-4k7"
+			(at -0.3048 -1.0668 0)
 			(layer "B.Fab")
 			(uuid "d0061f05-415c-4366-ad57-a417b13a55ae")
 			(effects
@@ -38114,7 +38114,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-100"
+		(property "Value" "R-4k7"
 			(at -0.0508 -0.762 90)
 			(layer "B.Fab")
 			(uuid "c1f987ea-e48c-4151-8d66-891e088d23db")
@@ -38375,7 +38375,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at -0.0508 -1.016 90)
 			(layer "B.Fab")
 			(uuid "a75eb1f2-09d5-4aad-84cf-b3e660f15992")
@@ -39146,8 +39146,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k"
-			(at 0.2032 -0.2032 0)
+		(property "Value" "R-4k7"
+			(at 0.3048 -1.27 0)
 			(layer "B.Fab")
 			(uuid "01aaf05a-a218-497c-8ae7-e2b363b75125")
 			(effects
@@ -39718,6 +39718,36 @@
 		(layer "F.SilkS")
 		(uuid "fd9a183e-6b4d-4bb6-a10e-cffb79fbb188")
 	)
+	(gr_line
+		(start 76.9112 84.8868)
+		(end 76.9112 81.1276)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Mask")
+		(uuid "28cbe879-eace-4884-b115-e4cc5630f4ef")
+	)
+	(gr_line
+		(start 80.8228 81.026)
+		(end 76.9112 84.8868)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Mask")
+		(uuid "66dde29b-5162-436c-b5f2-a773ce8a5460")
+	)
+	(gr_line
+		(start 76.9112 81.1276)
+		(end 80.5688 84.4296)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Mask")
+		(uuid "b12ff4be-ece3-467b-bab5-ecf82fa718c7")
+	)
 	(gr_rect
 		(start 48.3305 50.802)
 		(end 96.3305 125.802)
@@ -39729,6 +39759,126 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "bf08fcec-7cae-443f-b0ce-ba1a1182ee35")
+	)
+	(gr_line
+		(start 49.276 88.1888)
+		(end 59.5884 80.3656)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "0e33e6ef-fd71-4078-965c-e2184d05c095")
+	)
+	(gr_line
+		(start 82.804 74.0156)
+		(end 79.8068 68.4276)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "184d69d7-01bf-4123-8958-20d1047dad62")
+	)
+	(gr_line
+		(start 57.7596 76.708)
+		(end 53.7972 79.4004)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "19e9fb6f-05a3-4519-b479-efda019f8de7")
+	)
+	(gr_line
+		(start 82.804 68.6054)
+		(end 80.3148 74.4474)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "486c2414-275d-4f61-a077-d8247ae38e8e")
+	)
+	(gr_line
+		(start 89.916 105.2068)
+		(end 93.0148 101.9556)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "75de36c3-6b42-4db8-8556-484040dd06ab")
+	)
+	(gr_line
+		(start 95.504 70.5612)
+		(end 92.71 72.4408)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "87c0b064-9643-46e7-ae16-398acbbccb3b")
+	)
+	(gr_line
+		(start 92.8116 70.2564)
+		(end 95.3516 72.5932)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "b9a68942-8d85-4631-912b-29c9681798b0")
+	)
+	(gr_line
+		(start 80.6704 74.676)
+		(end 74.8792 77.3684)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "cffce04c-42e8-4295-8446-9151192dc219")
+	)
+	(gr_line
+		(start 75.3872 74.8792)
+		(end 80.7212 77.216)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "d86cbe82-cc24-4292-928b-c3fcbe68ad5b")
+	)
+	(gr_line
+		(start 49.022 80.3656)
+		(end 60.0964 88.0872)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "de1ec1ef-b25a-4dee-81a7-0a5663ba3747")
+	)
+	(gr_line
+		(start 53.9496 76.708)
+		(end 57.8104 79.2988)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "e82f6cb9-a6a3-4709-9376-d224d31c5eee")
+	)
+	(gr_line
+		(start 93.1164 104.902)
+		(end 89.7636 101.854)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "ece79750-02aa-4d5f-bb25-880053acba27")
 	)
 	(gr_text "LOVE\n\nnature"
 		(at 92.0496 73.3552 0)
@@ -39818,6 +39968,18 @@
 				(thickness 0.125)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "schimb +/-!!!"
+		(at 95.25 75.9968 270)
+		(layer "B.Fab")
+		(uuid "96e7b96f-3257-4724-b7b3-d6d61ee60885")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment

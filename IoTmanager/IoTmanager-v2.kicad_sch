@@ -12662,7 +12662,7 @@
 				)
 			)
 		)
-		(property "Value" "R-100"
+		(property "Value" "R-4k7"
 			(at 433.07 104.14 90)
 			(effects
 				(font
@@ -15514,7 +15514,7 @@
 				)
 			)
 		)
-		(property "Value" "R-1k-opt"
+		(property "Value" "R-1k"
 			(at 342.9 270.256 90)
 			(effects
 				(font
@@ -17545,7 +17545,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k-opt"
+		(property "Value" "R-10k"
 			(at 156.21 157.48 90)
 			(effects
 				(font
@@ -17782,7 +17782,7 @@
 				)
 			)
 		)
-		(property "Value" "R-100"
+		(property "Value" "R-4k7"
 			(at 433.07 149.86 90)
 			(effects
 				(font
@@ -20010,7 +20010,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at 400.05 93.98 90)
 			(effects
 				(font
@@ -20078,7 +20078,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at 400.05 160.02 90)
 			(effects
 				(font
@@ -20239,7 +20239,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at 445.77 114.3 90)
 			(effects
 				(font
@@ -20832,7 +20832,7 @@
 				)
 			)
 		)
-		(property "Value" "R-1k-opt"
+		(property "Value" "R-1k"
 			(at 345.186 270.51 90)
 			(effects
 				(font
@@ -21348,7 +21348,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-4k7"
 			(at 400.05 139.7 90)
 			(effects
 				(font
@@ -21618,7 +21618,7 @@
 				)
 			)
 		)
-		(property "Value" "R-100"
+		(property "Value" "R-4k7"
 			(at 383.54 104.14 90)
 			(effects
 				(font
@@ -21779,7 +21779,7 @@
 				)
 			)
 		)
-		(property "Value" "R-1k"
+		(property "Value" "R-100"
 			(at 52.07 153.67 90)
 			(effects
 				(font
@@ -21873,7 +21873,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at 400.05 114.3 90)
 			(effects
 				(font
@@ -23773,7 +23773,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k"
+		(property "Value" "R-10k-opt"
 			(at 444.5 92.71 90)
 			(effects
 				(font
@@ -24916,7 +24916,7 @@
 				)
 			)
 		)
-		(property "Value" "R-1k-opt"
+		(property "Value" "R-1k"
 			(at 347.98 270.51 90)
 			(effects
 				(font
@@ -25199,7 +25199,7 @@
 				)
 			)
 		)
-		(property "Value" "R-1k"
+		(property "Value" "R-100"
 			(at 45.466 161.798 90)
 			(effects
 				(font
