@@ -522,6 +522,8 @@
       "/d3-no-10": "RELAY",
       "/mosf1-out-d5": "DC_AND_GND",
       "/mosf1-out-d6": "DC_AND_GND",
+      "/mosf1-out-d7": "DC_AND_GND",
+      "/mosf1-out-d8": "DC_AND_GND",
       "/mosf2-out-d7": "DC_AND_GND",
       "/mosf2-out-d8": "DC_AND_GND",
       "/rx-com-5": "RELAY",
