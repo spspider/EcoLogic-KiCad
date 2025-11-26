@@ -1,6 +1,10 @@
 # EcoLogic KiCad - ESP8266 Home Automation PCB
 
-A professional-grade KiCad project for ESP8266-based home automation systems, designed for JLCPCB manufacturing and Home Assistant integration.
+A professional-grade KiCad project for ESP8266-based home automation systems, designed for PCBWAY manufacturing and Home Assistant integration.
+
+you can control your device throw this site:
+[https://ecologic.pp.ua/iot-manager/](https://ecologic.pp.ua/iot-manager/)
+Register as a new user and go to "Devices"
 
 ## 📋 Project Overview
 
@@ -9,7 +13,7 @@ This repository contains complete PCB designs for IoT home automation controller
 ### Key Features
 - ESP8266-based design for WiFi connectivity
 - Multiple relay outputs for appliance control
-- JLCPCB-ready manufacturing files
+- PCBWAY-ready manufacturing files
 - Home Assistant compatible
 - Professional PCB layout with proper isolation
 - SMD components for compact design
@@ -27,7 +31,7 @@ This repository contains complete PCB designs for IoT home automation controller
 EcoLogic-KiCad/
 ├── IoTmanager/                    # Main project directory
 │   ├── BOM-CPL/                   # Bill of Materials & Component Placement
-│   │   ├── BOM.csv               # JLCPCB Bill of Materials
+│   │   ├── BOM.csv               # PCBWAY Bill of Materials
 │   │   ├── CPL.xlsx              # Component Placement List
 │   │   └── *.csv                 # Position files
 │   ├── gerber/                    # Manufacturing files
@@ -35,7 +39,7 @@ EcoLogic-KiCad/
 │   │   ├── *.gbr                 # Individual gerber layers
 │   │   └── *.drl                 # Drill files
 │   ├── images/                    # PCB and schematic images
-│   ├── LCPCB/                     # JLCPCB templates
+│   ├── LCPCB/                     # PCBWAY templates
 │   └── *.kicad_*                 # KiCad project files
 └── README.md                      # This file
 ```
@@ -71,17 +75,20 @@ EcoLogic-KiCad/
 | Jumper-d5,d6,d7 | Jumpers | 3 | Configuration Jumpers |
 
 
-## 🏭 JLCPCB Manufacturing Guide
+## 🏭 PCBway Manufacturing Guide
 
 ### Step 1: Prepare Files
 1. Download the complete `gerber.zip` from `IoTmanager/gerber/`
 2. Get BOM file: `IoTmanager/BOM-CPL/BOM.csv`
 3. Get CPL file: `IoTmanager/BOM-CPL/CPL.xlsx`
 
-### Step 2: Upload to JLCPCB
-1. Go to [JLCPCB.com](https://jlcpcb.com/)
+### Step 2: Upload to PCBWAY
+1. Go to [www.pcbway.com](https://www.pcbway.com/QuickOrderOnline.aspx)
+![pcbway add schematic](IoTmanager/images/pcbway-add-file.jpg)
 2. Click "Add gerber file" and upload `gerber2.zip`
-3. Review PCB specifications:
+3. Review PCB specifications, dont change anything:
+![review](IoTmanager/images/pcbway-defaults.jpg)
+
    - **Layers**: 2
    - **Thickness**: 1.6mm
    - **Color**: Green (recommended)
