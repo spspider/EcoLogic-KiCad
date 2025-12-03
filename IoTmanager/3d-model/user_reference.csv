@@ -1,0 +1,16 @@
+Name,Unit,Expression,Value,Comments,Favorite
+wall,mm,2 mm,2.00,глубина стенок,false
+clearance,mm,0.2 mm,0.20,зазор для guidance,false
+lid_overlap,mm,4 mm,4.00,"глубина, на которую крышка входит в нижнюю часть",false
+guide_clearance,mm,0.15 mm,0.15,,false
+pcb_clearance,mm,1 mm,1.00,зазор между корпусом и платой,false
+pcb_long,mm,82 mm,82.00,длина голой платы,false
+pcb_width,mm,48 mm,48.00,ширина голой платы,false
+outer_width,mm,wall * 2 + pcb_width + 2 * pcb_clearance,54.00,внешняя ширина,false
+outer_height,mm,wall * 2 + pcb_long + 2 * pcb_clearance,88.00,внешняя глубина,false
+pcb_height_up,mm,4 mm,4.00,высота голой платы,false
+guide_height,mm,3 mm,3.00,,false
+guide_thickness,mm,1.5 mm,1.50,,false
+guide_offset,mm,wall + clearance,2.20,,false
+snap_flex,mm,0.6 mm,0.60,насколько защёлка прогибается,false
+snap_thickness,mm,1.5 mm,1.50,"минимальная толщина, чтобы не ломалась",false

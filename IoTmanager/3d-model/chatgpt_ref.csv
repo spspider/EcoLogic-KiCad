@@ -1,0 +1,23 @@
+Name,Unit,Expression,Value,Comments,Favorite
+wall,mm,2 mm,2.00,Толщина стенки корпуса (снаружи-до-внутри),false
+clearance,mm,0.2 mm,0.20,Зазор для посадки крышки (общий),false
+lid_overlap,mm,4 mm,4.00,Глубина на которую крышка входит в низ,false
+guide_clearance,mm,0.15 mm,0.15,Зазор между направляющей и принимающей частью крышки,false
+pcb_clearance,mm,1 mm,1.00,Зазор между платой и внутренними стенками корпуса,false
+pcb_long,mm,82 mm,82.00,Длина печатной платы,false
+pcb_width,mm,48 mm,48.00,Ширина печатной платы,false
+outer_width,mm,wall * 2 + pcb_width + 2 * pcb_clearance,54.00,Внешняя ширина корпуса,false
+outer_height,mm,wall * 2 + pcb_long + 2 * pcb_clearance,88.00,Внешняя глубина корпуса,false
+pcb_height_up,mm,4 mm,4.00,Высота компонентов на плате (от нижней поверхности),false
+guide_height,mm,3 mm,3.00,Высота направляющих от уровня плоскости (см. где extrude),false
+guide_thickness,mm,1.5 mm,1.50,Толщина ребра направляющей (по горизонтали),false
+guide_offset_center,mm,wall / 2,1.00,Смещение от внешней кромки до центра направляющей (средина стенки),false
+guide_offset_inner,mm,wall - guide_offset_center,1.00,Смещение от внутренней кромки до центра направляющей (альтернативный),false
+snap_flex,mm,0.6 mm,0.60,Радиус/радиус скругления у основания защёлки (помогает гибкости),false
+snap_thickness,mm,1.5 mm,1.50,Толщина тела защёлки (минимум для прочности),false
+snap_length,mm,6 mm,6.00,Длина выступа защёлки (горизонтальная часть L),false
+snap_hook_height,mm,2.5 mm,2.50,Высота крюка (вертикальная часть L),false
+snap_backing_rib,mm,1.5 mm,1.50,Толщина ребра усиления снаружи (если добавлять),false
+lid_thickness,mm,2 mm,2.00,Толщина стенки крышки,false
+lid_height,mm,lid_overlap + lid_thickness,6.00,Общая высота крышки (пример),false
+guide_clearance_total,mm,guide_clearance + clearance,0.35,Общий запас при контакте направляющих,false
