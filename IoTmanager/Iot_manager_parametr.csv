@@ -1,0 +1,28 @@
+Name,Unit,Expression,Value,Comments,Favorite
+wall,mm,1.6 mm,1.60,глубина стенок,false
+clearance,mm,0.2 mm,0.20,зазор для guidance,false
+lid_overlap,mm,3 mm,3.00,"глубина, на которую крышка входит в нижнюю часть",false
+guide_clearance,mm,0.15 mm,0.15,,false
+pcb_clearance,mm,1 mm,1.00,зазор между корпусом и платой,false
+pcb_long,mm,82 mm,82.00,длина голой платы,false
+pcb_width,mm,52 mm,52.00,ширина голой платы,false
+outer_width,mm,wall * 2 + pcb_width + 2 * pcb_clearance,57.20,внешняя ширина,false
+outer_height,mm,wall * 2 + pcb_long + 2 * pcb_clearance,87.20,внешняя глубина,false
+pcb_bottpm_height_up,mm,8 mm,8.00,высота голой платы,false
+guide_height,mm,2 mm,2.00,,false
+guide_thickness,mm,1.5 mm,1.50,,false
+guide_offset,mm,wall + clearance,1.80,,false
+snap_thickness,mm,1.5 mm,1.50,"минимальная толщина, чтобы не ломалась",false
+pcb_height_top,mm,28 mm,28.00,,false
+lid_thickness,mm,2 mm,2.00,Толщина стенки крышки,false
+lid_from_up_to_down,mm,pcb_height_top - ( pcb_bottpm_height_up + pcb_clearance ) - clearance + guide_height,20.80,,false
+snap_height,mm,6 mm,6.00,высота язычка,false
+snap_length,mm,12 mm,12.00,длина защёлки вдоль стенки,false
+snap_hook_depth,mm,1 mm,1.00,глубина зацепа,false
+snap_hook_angle,mm,15 mm,15.00,угол наклона упора,false
+snap_flex_radius,mm,1.2 mm,1.20,"радиус гиба, не ломается при печати",false
+snap_clearance,mm,0.35 mm,0.35,зазор между язычком и пазом,false
+snap_cutout_height,mm,4 mm,4.00,"высота ""дырки"" для поддевания",false
+snap_cutout_depth,mm,1.2 mm,1.20,глубина отверстия для поддевания,false
+snap_offcet_from_corner,mm,0.5 mm,0.50,snap offcet from corner,false
+snap_3d_depth,mm,10 mm,10.00,ширина защелки вдоль стенки,false
