@@ -19824,7 +19824,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-100"
+		(property "Value" "R-4k7"
 			(at -0.0508 -0.7112 90)
 			(layer "B.Fab")
 			(uuid "2a00af32-6af2-4f08-9986-185857a65980")
@@ -22796,7 +22796,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-4k7"
+		(property "Value" "R-4k7-no!"
 			(at 0 -0.4572 0)
 			(layer "B.Fab")
 			(uuid "a129a1c1-fe10-44cc-841b-9f2e257dec69")
@@ -25438,7 +25438,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SM6T24A"
+		(property "Value" "SM6T24A-5V"
 			(at -0.062 -1.532 0)
 			(layer "B.Fab")
 			(uuid "656f55c1-3304-4759-8d34-8321c3348e19")
@@ -26552,7 +26552,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k-opt"
+		(property "Value" "R-10k-opt-no!"
 			(at -0.1016 0.4572 90)
 			(layer "B.Fab")
 			(uuid "04edeffc-4422-4bfa-9571-767d139140ab")
@@ -38375,7 +38375,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-10k-opt"
+		(property "Value" "R-10k-opt-no!"
 			(at -0.0508 -1.016 90)
 			(layer "B.Fab")
 			(uuid "a75eb1f2-09d5-4aad-84cf-b3e660f15992")
@@ -39146,7 +39146,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-4k7"
+		(property "Value" "R-4k7-no!"
 			(at 0.3048 -1.27 0)
 			(layer "B.Fab")
 			(uuid "01aaf05a-a218-497c-8ae7-e2b363b75125")
@@ -39761,16 +39761,6 @@
 		(uuid "bf08fcec-7cae-443f-b0ce-ba1a1182ee35")
 	)
 	(gr_line
-		(start 49.276 88.1888)
-		(end 59.5884 80.3656)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.Fab")
-		(uuid "0e33e6ef-fd71-4078-965c-e2184d05c095")
-	)
-	(gr_line
 		(start 82.804 74.0156)
 		(end 79.8068 68.4276)
 		(stroke
@@ -39849,16 +39839,6 @@
 		)
 		(layer "B.Fab")
 		(uuid "d86cbe82-cc24-4292-928b-c3fcbe68ad5b")
-	)
-	(gr_line
-		(start 49.022 80.3656)
-		(end 60.0964 88.0872)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.Fab")
-		(uuid "de1ec1ef-b25a-4dee-81a7-0a5663ba3747")
 	)
 	(gr_line
 		(start 53.9496 76.708)

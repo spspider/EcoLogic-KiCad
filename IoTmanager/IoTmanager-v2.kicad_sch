@@ -7867,6 +7867,12 @@
 		(uuid "a77c8288-4f77-4294-a3ef-f7111d28cd26")
 	)
 	(junction
+		(at 39.37 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aba37f33-c2c9-4eb7-ac26-0c448c441140")
+	)
+	(junction
 		(at 391.16 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8170,6 +8176,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 63.5) (xy 39.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0a1165-1e6e-4f99-b498-58925afba4e4")
+	)
+	(wire
+		(pts
 			(xy 320.04 262.89) (xy 320.04 279.4)
 		)
 		(stroke
@@ -8330,6 +8346,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 118.11) (xy 450.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c810e7e-41c9-4434-95bf-ee461e4de945")
+	)
+	(wire
+		(pts
 			(xy 396.24 107.95) (xy 396.24 118.11)
 		)
 		(stroke
@@ -8360,7 +8386,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 64.77) (xy 45.72 64.77)
+			(xy 34.29 64.77) (xy 39.37 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8587,16 +8613,6 @@
 			(type default)
 		)
 		(uuid "2d706352-17bd-4d8d-9d32-c15d135328c4")
-	)
-	(wire
-		(pts
-			(xy 449.58 118.11) (xy 450.85 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dbe73e8-83cf-4aa3-8d40-fea2d5de4df6")
 	)
 	(wire
 		(pts
@@ -9677,6 +9693,16 @@
 			(type default)
 		)
 		(uuid "8e531718-dcd5-4467-a8f1-fae0e9886964")
+	)
+	(wire
+		(pts
+			(xy 39.37 64.77) (xy 45.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0b93bf-2666-410c-ab9b-e9dc13373b21")
 	)
 	(wire
 		(pts
@@ -11622,7 +11648,7 @@
 		)
 	)
 	(label "d4-1k"
-		(at 39.37 64.77 0)
+		(at 39.37 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14147,10 +14173,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e9e216c-a9b2-406e-b723-ca978cf968b3")
 		(property "Reference" "D11"
-			(at 440.69 113.0299 90)
+			(at 430.53 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14159,7 +14184,7 @@
 			)
 		)
 		(property "Value" "BZV55B3V3"
-			(at 440.69 115.5699 90)
+			(at 423.672 115.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17782,7 +17807,7 @@
 				)
 			)
 		)
-		(property "Value" "R-4k7"
+		(property "Value" "R-4k7-no!"
 			(at 433.07 149.86 90)
 			(effects
 				(font
@@ -20010,7 +20035,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k-opt"
+		(property "Value" "R-10k-opt-no!"
 			(at 400.05 93.98 90)
 			(effects
 				(font
@@ -21348,7 +21373,7 @@
 				)
 			)
 		)
-		(property "Value" "R-4k7"
+		(property "Value" "R-4k7-no!"
 			(at 400.05 139.7 90)
 			(effects
 				(font
@@ -21417,7 +21442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM6T24A"
+		(property "Value" "SM6T24A-5V"
 			(at 38.1 101.5999 90)
 			(effects
 				(font
@@ -21780,7 +21805,7 @@
 			)
 		)
 		(property "Value" "R-100"
-			(at 52.07 153.67 90)
+			(at 66.802 160.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22474,7 +22499,7 @@
 				)
 			)
 		)
-		(property "Value" "R-100"
+		(property "Value" "R-4k7"
 			(at 387.35 149.86 90)
 			(effects
 				(font
@@ -23773,7 +23798,7 @@
 				)
 			)
 		)
-		(property "Value" "R-10k-opt"
+		(property "Value" "R-10k-opt-no!"
 			(at 444.5 92.71 90)
 			(effects
 				(font
@@ -24652,7 +24677,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee8df470-0542-4c9f-9554-8a623f28690b")
 		(property "Reference" "Q9"
 			(at 408.94 106.6799 0)
@@ -24664,7 +24688,7 @@
 			)
 		)
 		(property "Value" "FDS9926A"
-			(at 408.94 109.2199 0)
+			(at 409.194 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25200,7 +25224,7 @@
 			)
 		)
 		(property "Value" "R-100"
-			(at 45.466 161.798 90)
+			(at 66.802 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
