@@ -20702,7 +20702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM6T24A-12V"
+		(property "Value" "SMBJ15A"
 			(at 142.24 38.0999 90)
 			(effects
 				(font
@@ -21422,7 +21422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM6T24A"
+		(property "Value" "SMBJ5.0A"
 			(at 38.1 101.5999 90)
 			(effects
 				(font
@@ -22987,7 +22987,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R-opt"
 			(at 330.2 36.322 90)
 			(effects
 				(font
