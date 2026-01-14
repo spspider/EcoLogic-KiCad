@@ -130,7 +130,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -532,6 +532,7 @@
       "/tx-com-2": "RELAY",
       "/tx-nc-3": "RELAY",
       "/tx-no-1": "RELAY",
+      "GND": "DC_AND_GND",
       "GNDPWR": "DC_AND_GND"
     },
     "netclass_patterns": [
@@ -589,7 +590,7 @@
       },
       {
         "netclass": "DC_AND_GND",
-        "pattern": "GNDPWR"
+        "pattern": "GND"
       },
       {
         "netclass": "DC_AND_GND",
@@ -678,7 +679,7 @@
           "group_by": false,
           "label": "Описание",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

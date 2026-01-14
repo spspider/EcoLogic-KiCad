@@ -126,7 +126,7 @@
     "Net-(Q1-C)" "Net-(Q2-B)" "Net-(Q3-C)" "unconnected-(U8-Ring1-Pad3)" "Net-(Q3-B)" "Net-(Q4-B)" "Net-(Q5-B)" "Net-(Q5-C)"
     "unconnected-(U8-Ring2-Pad4)" /pwrRel "Net-(Q6-B)" "Net-(Q7-C)" "Net-(Q7-B)" "Net-(Q8-B)" "Net-(J6-Pin_11)" "Net-(J6-Pin_10)"
     "Net-(F1-Pad1)" "Net-(D5-A)" "Net-(D8-A)" "/mosf2-out-d7" "Net-(SW2-reset1-D)" "Net-(Q1-B)" "Net-(U1-VDD)" "Net-(SW2-flash1-D)"
-    "/d7-in"
+    "/d7-in" "Net-(J6-Pin_9)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
@@ -137,7 +137,7 @@
     )
   )
   (class "DC_AND_GND"
-    "/mosf1-out-d5" "/mosf1-out-d7" +5C +12C +3.3V "/mosf1-out-d6" GNDPWR "/mosf1-out-d8"
+    "/mosf1-out-d5" "/mosf1-out-d7" +5C +12C +3.3V "/mosf1-out-d6" GND "/mosf1-out-d8"
     (clearance_class "DC_AND_GND")
     (via_rule "DC_AND_GND")
     (rule
