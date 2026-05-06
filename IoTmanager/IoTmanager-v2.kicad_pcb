@@ -16486,7 +16486,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-4k7"
+		(property "Value" "R-100"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "805760f2-4912-4e3b-8000-d434d948c58f")
@@ -23496,7 +23496,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R-4k7"
+		(property "Value" "R-100"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "e4722712-57d3-493f-8d20-de0e162d5dfe")
@@ -26041,6 +26041,16 @@
 			)
 		)
 	)
+	(gr_line
+		(start 72.5932 92.202)
+		(end 87.0204 92.8624)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "2722efc9-fdef-45a3-b8f6-21e89952ccea")
+	)
 	(gr_rect
 		(start 48.3305 50.802)
 		(end 96.3305 125.802)
@@ -26052,6 +26062,19 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "bf08fcec-7cae-443f-b0ce-ba1a1182ee35")
+	)
+	(gr_text "cut this"
+		(at 80.6704 93.3196 0)
+		(layer "F.Cu")
+		(uuid "e2e6ac0e-d4bf-4fdc-a8b5-cbc1fc83bc62")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "GND  GND 12V   5V  3.3V  D5   D6   D7   TX   D1   D2    D8"
 		(at 49.5305 120.102 0)
@@ -26101,6 +26124,48 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "CUT here\n"
+		(at 97.282 105.7656 0)
+		(layer "B.Fab")
+		(uuid "5edf2d98-1a10-4d49-8816-5a74c0e0e980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "add wire from rx to switch (d4)\n"
+		(at 88.2904 93.3704 0)
+		(layer "B.Fab")
+		(uuid "c915fc27-1d6b-4a9a-a881-bff78063a286")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text_box "CUT DHT 11 GND\n"
+		(start 95.1992 103.9368)
+		(end 99.6696 110.8964)
+		(layer "F.Mask")
+		(uuid "e45ccde8-4dfb-4571-bba3-1ca2c877931c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 	)
 	(segment

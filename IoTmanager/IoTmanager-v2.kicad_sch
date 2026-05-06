@@ -10198,6 +10198,25 @@
 		)
 		(uuid "ffca6d27-145a-4a24-a0c0-4d1402367740")
 	)
+	(text_box "d4 - rx(add wire connection)\n\ncut DHT11 - power add R33\n\ncut wire from d4 to switch"
+		(exclude_from_sim no)
+		(at 212.09 281.94 0)
+		(size 29.21 21.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f79858f7-fe94-4308-b86b-4f5934e74956")
+	)
 	(label "d2"
 		(at 161.29 167.64 0)
 		(fields_autoplaced yes)
@@ -18597,7 +18616,7 @@
 				)
 			)
 		)
-		(property "Value" "R-4k7"
+		(property "Value" "R-100"
 			(at 149.098 173.228 90)
 			(effects
 				(font
@@ -20079,7 +20098,7 @@
 				)
 			)
 		)
-		(property "Value" "R-4k7"
+		(property "Value" "R-100"
 			(at 150.622 165.1 90)
 			(effects
 				(font
