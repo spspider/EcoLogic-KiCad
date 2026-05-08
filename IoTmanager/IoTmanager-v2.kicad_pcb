@@ -26076,7 +26076,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND  GND 12V   5V  3.3V  D5   D6   D7   TX   D1   D2    D8"
+	(gr_text "GND  12V   5V  3.3V  D5   D6   D7  D4   TX   D1   D2    D8"
 		(at 49.5305 120.102 0)
 		(layer "B.SilkS" knockout)
 		(uuid "da140e17-7423-425a-be9e-c8978d36ef42")
@@ -26089,7 +26089,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "NC COM NO | NC COM NO | NC COM NO | NC COM NO"
+	(gr_text "NC COM NO | NC COM NO | NC COM NO | NC COM NO\n    d3          tx         rx           d0  "
 		(at 49.4305 57.502 0)
 		(layer "B.SilkS" knockout)
 		(uuid "f9f4c64d-8284-40f3-886d-f401f9e7fe94")
@@ -26101,8 +26101,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "NC COM NO | NC COM NO | NC COM NO | NC COM NO"
-		(at 49.3305 57.502 0)
+	(gr_text "NC COM NO | NC COM NO | NC COM NO | NC COM NO\n    d3          tx         rx           d0  "
+		(at 49.6 53.6 0)
 		(layer "F.SilkS" knockout)
 		(uuid "c0e8d1a8-a282-40b4-bd42-7dd5182b8715")
 		(effects
@@ -26113,8 +26113,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND  GND 12V   5V  3.3V  D5   D6   D7   TX   D1   D2    D8"
-		(at 49.5305 120.002 0)
+	(gr_text "GND  12V   5V  3.3V  D5   D6   D7  D4   TX   D1   D2    D8"
+		(at 49.4 125.4 0)
 		(layer "F.SilkS" knockout)
 		(uuid "c1463ae0-ce04-47b6-9893-8129b2191046")
 		(effects
