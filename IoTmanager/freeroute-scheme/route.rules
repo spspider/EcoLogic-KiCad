@@ -127,7 +127,9 @@
     "Net-(Q7-C)" "Net-(JP3-C)" "Net-(Q8-B)" "Net-(F1-Pad1)" "Net-(D5-A)" "Net-(D8-A)" "/mosf2-out-d7" "Net-(SW2-reset1-D)"
     "Net-(U1-VDD)" "Net-(SW2-flash1-D)" "Net-(JP4-B)" "Net-(JP4-A)" "Net-(JP5-A)" "Net-(JP6-B)" "Net-(JP6-A)" "Net-(JP7-A)"
     "Net-(JP8-B)" "Net-(JP8-A)" "Net-(JP9-A)" "Net-(Q10B-G2)" "Net-(JP10-A)" "Net-(JP12-C)" "Net-(JP2-C)" "/d1-in"
-    "/d2-in" "Net-(JP11-C)" "Net-(JP13-C)" "Net-(JP2-A)" "Net-(JP3-A)" "Net-(JP12-A)" "Net-(JP13-A)"
+    "/d2-in" "Net-(JP11-C)" "Net-(JP13-C)" "Net-(JP2-A)" "Net-(JP3-A)" "Net-(JP12-A)" "Net-(JP13-A)" "Net-(U11-RXD)"
+    GNDPWR "unconnected-(U11-MIC--Pad9)" "unconnected-(U11-SPK+-Pad8)" "unconnected-(U11-RST-Pad3)" "unconnected-(U11-RING-Pad12)" "unconnected-(U11-DTR-Pad11)" "unconnected-(U11-SPK--Pad7)" "unconnected-(U11-NET-Pad1)"
+    "unconnected-(U11-MIC+-Pad10)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule

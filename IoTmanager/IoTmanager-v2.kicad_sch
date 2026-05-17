@@ -9120,7 +9120,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84) (xy 190.5 115.57)
+			(xy 190.5 134.62) (xy 190.5 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9440,6 +9440,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 119.38) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da89d2e-0287-4ffd-8bf9-3dd7e4f48c7d")
+	)
+	(wire
+		(pts
 			(xy 477.52 121.92) (xy 478.79 121.92)
 		)
 		(stroke
@@ -9527,6 +9537,16 @@
 			(type default)
 		)
 		(uuid "3b45ad95-10f9-4139-bdbb-66dd0ac10941")
+	)
+	(wire
+		(pts
+			(xy 190.5 106.68) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b46485a-aa8d-49b7-af12-1f18bc30aee3")
 	)
 	(wire
 		(pts
@@ -9657,16 +9677,6 @@
 			(type default)
 		)
 		(uuid "46fc7660-c7a8-4f1e-bf80-7b3ac491faab")
-	)
-	(wire
-		(pts
-			(xy 201.93 102.87) (xy 205.74 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4896d120-a34b-4cfd-8f45-12d30018c2a8")
 	)
 	(wire
 		(pts
@@ -9980,16 +9990,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 95.25) (xy 190.5 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbb6b09-e0d5-4ea3-83ad-7bb308991f21")
-	)
-	(wire
-		(pts
 			(xy 115.57 245.11) (xy 125.73 245.11)
 		)
 		(stroke
@@ -10090,7 +10090,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 210.82) (xy 262.89 210.82)
+			(xy 255.27 210.82) (xy 262.89 210.82)
 		)
 		(stroke
 			(width 0)
@@ -10107,6 +10107,16 @@
 			(type default)
 		)
 		(uuid "6442add8-22cc-4ae6-9adf-80e9ca6d6a75")
+	)
+	(wire
+		(pts
+			(xy 194.31 114.3) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64771a99-a150-46a3-ae6e-63753a38547c")
 	)
 	(wire
 		(pts
@@ -10840,16 +10850,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 156.21) (xy 267.97 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a758addc-5bf2-4299-92b8-b123fe4be292")
-	)
-	(wire
-		(pts
 			(xy 102.87 148.59) (xy 102.87 157.48)
 		)
 		(stroke
@@ -10917,26 +10917,6 @@
 			(type default)
 		)
 		(uuid "ac4fe72e-60f8-4a1b-9430-04f7a49d2d9b")
-	)
-	(wire
-		(pts
-			(xy 271.78 167.64) (xy 271.78 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac6cd381-c3f9-4fca-bb31-4aa656cba5ea")
-	)
-	(wire
-		(pts
-			(xy 275.59 167.64) (xy 275.59 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac921a28-51bd-4156-ac4c-f9dbf8891862")
 	)
 	(wire
 		(pts
@@ -11570,16 +11550,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 156.21) (xy 271.78 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df69b98e-f099-436b-9773-bf18f72b5656")
-	)
-	(wire
-		(pts
 			(xy 345.44 229.87) (xy 345.44 234.95)
 		)
 		(stroke
@@ -11820,6 +11790,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 96.52) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ada2d9-6400-4cd3-96e2-388c7be58b16")
+	)
+	(wire
+		(pts
 			(xy 31.75 275.59) (xy 34.29 275.59)
 		)
 		(stroke
@@ -11887,16 +11867,6 @@
 			(type default)
 		)
 		(uuid "f833039d-d787-4538-b061-0a8db843cb71")
-	)
-	(wire
-		(pts
-			(xy 267.97 167.64) (xy 267.97 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f938a862-0eea-4d52-9d9d-046ab8ab933d")
 	)
 	(wire
 		(pts
@@ -11987,16 +11957,6 @@
 			(type default)
 		)
 		(uuid "fd017a59-1b68-4acd-b621-7cb5247e312f")
-	)
-	(wire
-		(pts
-			(xy 275.59 156.21) (xy 275.59 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff39d805-bd9d-444f-9be7-b569ccfbf08d")
 	)
 	(wire
 		(pts
@@ -12134,17 +12094,6 @@
 		)
 		(uuid "089732f0-fd87-4d66-addf-c17cd825d30e")
 	)
-	(label "d5"
-		(at 267.97 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dfed829-7d9f-4eb7-83e7-2f85e97017e6")
-	)
 	(label "mosf2-out-d7"
 		(at 335.28 262.89 90)
 		(fields_autoplaced yes)
@@ -12157,7 +12106,7 @@
 		(uuid "0f46c98f-5834-44ed-ae7b-5d29844161dd")
 	)
 	(label "d2-in"
-		(at 190.5 95.25 0)
+		(at 198.12 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12771,7 +12720,7 @@
 		(uuid "80127b55-b966-486a-9895-7941393e1fd9")
 	)
 	(label "d5"
-		(at 259.08 210.82 0)
+		(at 255.27 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12901,17 +12850,6 @@
 			)
 		)
 	)
-	(label "d7"
-		(at 271.78 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90b13d4e-5f49-40d4-8144-c6d1b80a62d7")
-	)
 	(label "d3"
 		(at 140.97 157.48 0)
 		(fields_autoplaced yes)
@@ -12935,7 +12873,7 @@
 		(uuid "94c7ecd2-3751-414a-be3d-2d3656512e34")
 	)
 	(label "d2"
-		(at 205.74 102.87 0)
+		(at 190.5 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13382,17 +13320,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(label "d6"
-		(at 275.59 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f13c44ef-f852-446c-a75a-be2663a36f7b")
 	)
 	(label "label_in_12V"
 		(at 139.7 31.75 0)
@@ -15598,7 +15525,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 190.5 102.87 90)
+		(at 190.5 114.3 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -15606,7 +15533,7 @@
 		(dnp no)
 		(uuid "25a9d3e8-eb96-4654-be49-2bd35e41a24c")
 		(property "Reference" "JP11"
-			(at 186.69 102.87 0)
+			(at 186.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15614,7 +15541,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 208.788 110.49 90)
+			(at 208.788 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15622,7 +15549,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
-			(at 190.5 102.87 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15631,7 +15558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 102.87 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15640,7 +15567,7 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 190.5 102.87 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16359,72 +16286,6 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 271.78 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e0dee3f-76b5-42fb-ae55-668f8486a595")
-		(property "Reference" "#PWR054"
-			(at 271.78 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6af783f3-efa0-4fee-8747-444a4525b2d8")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -20197,7 +20058,7 @@
 	)
 	(symbol
 		(lib_id "LED:LD271")
-		(at 190.5 110.49 90)
+		(at 190.5 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20206,7 +20067,7 @@
 		(fields_autoplaced yes)
 		(uuid "6be5fcaa-8268-429a-8db8-c1a7c512e699")
 		(property "Reference" "D5"
-			(at 182.88 111.633 0)
+			(at 182.88 126.873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20214,7 +20075,7 @@
 			)
 		)
 		(property "Value" "LD271"
-			(at 185.42 111.633 0)
+			(at 185.42 126.873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20222,7 +20083,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
-			(at 186.055 110.49 0)
+			(at 186.055 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20231,7 +20092,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
-			(at 190.5 111.76 0)
+			(at 190.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20240,7 +20101,7 @@
 			)
 		)
 		(property "Description" "940nm IR-LED, 5mm"
-			(at 190.5 110.49 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20249,7 +20110,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 190.5 110.49 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20854,75 +20715,6 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZV55B3V3")
-		(at 271.78 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "739226e2-87c1-4f11-8129-5b7728ed65bb")
-		(property "Reference" "D10"
-			(at 270.51 151.384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B3V3"
-			(at 270.256 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 267.335 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 271.78 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 271.78 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dd9845e-2bae-4d93-b542-9cc85d048470")
-		)
-		(pin "2"
-			(uuid "2c03fe74-fa4a-43ca-b4aa-952f97b8deaa")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -22611,7 +22403,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 116.84 0)
+		(at 190.5 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22620,7 +22412,7 @@
 		(fields_autoplaced yes)
 		(uuid "9836b6d6-64c1-4775-b24d-3653aede3b4b")
 		(property "Reference" "#PWR035"
-			(at 190.5 123.19 0)
+			(at 190.5 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22629,7 +22421,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.4999 120.65 90)
+			(at 190.4999 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22638,7 +22430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 116.84 0)
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22647,7 +22439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 116.84 0)
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22656,7 +22448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 116.84 0)
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23230,141 +23022,6 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 275.59 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab1f8fc8-3c0e-4093-9dc0-c5ed6bb4e0e0")
-		(property "Reference" "#PWR065"
-			(at 275.59 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 275.59 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5db4b595-008f-480d-8f40-3c4198bc34de")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZV55B3V3")
-		(at 275.59 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abc281b1-0cc4-48ef-8f35-93879683cb4b")
-		(property "Reference" "D11"
-			(at 276.098 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B3V3"
-			(at 274.066 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 271.145 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 275.59 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 275.59 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9918f23c-9280-4946-a10b-a3ccda45057f")
-		)
-		(pin "2"
-			(uuid "571a75c4-1ffb-40b6-97d8-7f6cad5192b9")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -25457,7 +25114,7 @@
 	)
 	(symbol
 		(lib_id "models:R-100")
-		(at 198.12 102.87 90)
+		(at 190.5 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25466,23 +25123,25 @@
 		(fields_autoplaced yes)
 		(uuid "db65c2f2-099f-40f5-a6d7-d735a41babcf")
 		(property "Reference" "R14"
-			(at 198.12 96.52 90)
+			(at 193.04 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "R100"
-			(at 198.12 99.06 90)
+			(at 193.04 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 198.12 104.648 90)
+			(at 192.278 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25491,7 +25150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 102.87 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25500,7 +25159,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 102.87 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25509,7 +25168,7 @@
 			)
 		)
 		(property "LCSC Part" "C17408"
-			(at 198.12 102.87 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25518,7 +25177,7 @@
 			)
 		)
 		(property "Supplier" "LCSCRef"
-			(at 198.12 102.87 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25527,7 +25186,7 @@
 			)
 		)
 		(property "JLCPCB Part" "C17408"
-			(at 198.12 102.87 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26444,75 +26103,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55B3V3")
-		(at 267.97 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb4846d4-2bb4-47b5-a50f-5ae659ce8fa4")
-		(property "Reference" "D12"
-			(at 266.446 151.384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZV55B3V3"
-			(at 265.938 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 263.525 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 267.97 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7689c40c-4209-417e-9aa9-cc64b88a3349")
-		)
-		(pin "2"
-			(uuid "139e6e2e-5bf5-40f8-83e9-334513a0b6d8")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "models:SW_PUSH_6mm_H4.3mm")
 		(at 170.18 172.72 0)
 		(unit 1)
@@ -27256,72 +26846,6 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f718650c-2f98-4c42-9e49-77db0a65a7ff")
-		(property "Reference" "#PWR029"
-			(at 267.97 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4faab77d-ccc6-4328-9fc1-a57f480d38b1")
-		)
-		(instances
-			(project "IoTmanager-v2"
-				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
