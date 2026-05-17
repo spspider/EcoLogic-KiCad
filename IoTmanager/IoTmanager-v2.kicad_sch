@@ -2247,6 +2247,151 @@
 				)
 			)
 		)
+		(symbol "Diode:1N5822"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5822"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5822_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5822_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:BZV55B3V3"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -8780,16 +8925,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 107.95) (xy 392.43 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "014e0b71-3bb8-4c47-bf1c-b025ddbe4154")
-	)
-	(wire
-		(pts
 			(xy 82.55 270.51) (xy 90.17 270.51)
 		)
 		(stroke
@@ -8797,6 +8932,16 @@
 			(type default)
 		)
 		(uuid "025330a9-2e51-4519-ac27-192d6967ba72")
+	)
+	(wire
+		(pts
+			(xy 386.08 107.95) (xy 392.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0446cf61-f7d0-4133-bdf9-35e5ff52e299")
 	)
 	(wire
 		(pts
@@ -9010,7 +9155,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 165.1) (xy 370.84 165.1)
+			(xy 347.98 165.1) (xy 356.87 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9440,6 +9585,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 165.1) (xy 393.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8f9d28-d4ed-4507-88f3-26f291d22032")
+	)
+	(wire
+		(pts
 			(xy 190.5 119.38) (xy 190.5 123.19)
 		)
 		(stroke
@@ -9487,16 +9642,6 @@
 			(type default)
 		)
 		(uuid "34a17542-fed7-484e-8a05-89beca9f5ec3")
-	)
-	(wire
-		(pts
-			(xy 378.46 165.1) (xy 393.7 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37bb7447-b2f8-43a2-8d6a-c7b785f421c5")
 	)
 	(wire
 		(pts
@@ -11470,6 +11615,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 165.1) (xy 378.46 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56a4000-5ef3-4e23-a255-a6ec16afa609")
+	)
+	(wire
+		(pts
 			(xy 473.71 87.63) (xy 473.71 93.98)
 		)
 		(stroke
@@ -11520,7 +11675,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 107.95) (xy 367.03 107.95)
+			(xy 353.06 107.95) (xy 361.95 107.95)
 		)
 		(stroke
 			(width 0)
@@ -11807,6 +11962,16 @@
 			(type default)
 		)
 		(uuid "f4468228-7ace-4323-90e7-57a5d1b7ed92")
+	)
+	(wire
+		(pts
+			(xy 369.57 107.95) (xy 378.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b73d37-2426-4ddb-9473-4509e6d46efe")
 	)
 	(wire
 		(pts
@@ -12665,7 +12830,7 @@
 		(uuid "77ee7fea-50b1-469b-9657-689a4e3910e2")
 	)
 	(label "d5"
-		(at 358.14 107.95 0)
+		(at 353.06 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12949,7 +13114,7 @@
 		(uuid "a2da8e11-2c76-452b-a95c-2c41dc154e4b")
 	)
 	(label "d7"
-		(at 361.95 165.1 0)
+		(at 347.98 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19421,7 +19586,7 @@
 	)
 	(symbol
 		(lib_id "models:R-100")
-		(at 374.65 165.1 90)
+		(at 360.68 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19430,7 +19595,7 @@
 		(fields_autoplaced yes)
 		(uuid "6248d807-299f-45a5-8e49-ea1063d78421")
 		(property "Reference" "R17"
-			(at 374.65 158.75 90)
+			(at 360.68 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19438,7 +19603,7 @@
 			)
 		)
 		(property "Value" "R-4k7"
-			(at 374.65 161.29 90)
+			(at 360.68 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19446,7 +19611,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 374.65 166.878 90)
+			(at 360.68 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19455,7 +19620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 374.65 165.1 0)
+			(at 360.68 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19464,7 +19629,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 374.65 165.1 0)
+			(at 360.68 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19473,7 +19638,7 @@
 			)
 		)
 		(property "LCSC Part" "C17408"
-			(at 374.65 165.1 0)
+			(at 360.68 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19482,7 +19647,7 @@
 			)
 		)
 		(property "Supplier" "LCSCRef"
-			(at 374.65 165.1 0)
+			(at 360.68 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19491,7 +19656,7 @@
 			)
 		)
 		(property "JLCPCB Part" "C17673"
-			(at 374.65 165.1 0)
+			(at 360.68 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19612,6 +19777,74 @@
 			(project "IoTmanager-v2"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5822")
+		(at 382.27 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d7517a-5c0a-4d5a-94e0-a5810687fdec")
+		(property "Reference" "D11"
+			(at 382.5875 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5822"
+			(at 382.5875 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 382.27 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(at 382.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 382.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a529694b-9d2f-4823-8b1c-c3b4579ce1ba")
+		)
+		(pin "2"
+			(uuid "23da0030-d2d1-4a5e-a611-40018873a514")
+		)
+		(instances
+			(project ""
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -23029,7 +23262,7 @@
 	)
 	(symbol
 		(lib_id "models:R-100")
-		(at 370.84 107.95 90)
+		(at 365.76 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23038,7 +23271,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac3a9dee-b9e4-4c2b-b3c9-1d946054fec1")
 		(property "Reference" "R26"
-			(at 370.84 101.6 90)
+			(at 365.76 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23046,7 +23279,7 @@
 			)
 		)
 		(property "Value" "R-4k7"
-			(at 370.84 104.14 90)
+			(at 365.76 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23054,7 +23287,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 370.84 109.728 90)
+			(at 365.76 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23063,7 +23296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 370.84 107.95 0)
+			(at 365.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23072,7 +23305,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 370.84 107.95 0)
+			(at 365.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23081,7 +23314,7 @@
 			)
 		)
 		(property "LCSC Part" "C17408"
-			(at 370.84 107.95 0)
+			(at 365.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23090,7 +23323,7 @@
 			)
 		)
 		(property "Supplier" "LCSCRef"
-			(at 370.84 107.95 0)
+			(at 365.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23099,7 +23332,7 @@
 			)
 		)
 		(property "JLCPCB Part" "C17673"
-			(at 370.84 107.95 0)
+			(at 365.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26097,6 +26330,74 @@
 			(project "IoTmanager"
 				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
 					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5822")
+		(at 382.27 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec6f3148-3ef6-47de-a129-140ff4af9f0b")
+		(property "Reference" "D10"
+			(at 382.5875 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5822"
+			(at 382.5875 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 382.27 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(at 382.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 382.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afec7fdd-463b-4224-97e6-06774ef9ea03")
+		)
+		(pin "2"
+			(uuid "f1fe9884-a94d-4076-ab7d-19d5cbc14533")
+		)
+		(instances
+			(project ""
+				(path "/e30adb8f-2050-4707-a23b-b56498f87e6f"
+					(reference "D10")
 					(unit 1)
 				)
 			)
